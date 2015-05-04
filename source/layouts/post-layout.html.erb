@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>This Developing Journey</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <%= stylesheet_link_tag "css/font-awesome.min.css" %>
+        <%= stylesheet_link_tag "css/bootstrap.min.css" %>
+        <%= stylesheet_link_tag "css/main" %>
+
+        <!--[if lt IE 9]>
+            <script src="/js/vendor/html5shiv.min.js"></script>
+        <![endif]-->
+
+        <%= javascript_include_tag "js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js" %>
+    </head>
+    <body>
+        <header class="hero-image" role="banner">
+
+            <span class="menu-trigger animated fadeInDown">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </span>
+
+            <%= partial 'layouts/menu' %>
+          </header>
+
+
+        <main class="container">
+            <div class="row">
+                <div class="col-xs-12 single-content">
+                    <p class="meta">
+                        <a class="" href="http://brianllamar.com">Brian Douglas</a> in <a class="" href="">This Developing Journey</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i>
+                    </p>
+
+                    <%= yield %>>
+                    <div id="disqus_thread"></div>
+                    <script type="text/javascript">
+                        /* * * CONFIGURATION VARIABLES * * */
+                        var disqus_shortname = 'developingjourney';
+                        
+                        /* * * DON'T EDIT BELOW THIS LINE * * */
+                        (function() {
+                            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+                </div><!-- main-content/col -->
+            </div> <!--/row -->
+
+        </main> <!-- /container -->
+
+        <%# <footer class="single"> %>
+        <%#     <div class="container"> %>
+        <%#         <div class="row"> %>
+        <%#             <div class="col-xs-12 col-sm-2"> %>
+        <%#                 <img src="img/profile-1.jpg" class="user-icon " alt="user-image"> %>
+        <%#             </div> %>
+        <%#             <div class="col-xs-12 col-sm-6"> %>
+        <%#                 <div class="category-list"> %>
+        <%#                     <p>Published <span>14th May 2015</span></p> %>
+        <%#                     <p><a href="#">James Reddy</a> in <a href="#">Storytime</a></p> %>
+
+        <%#                     <div class="other-catergories"> %>
+        <%#                         <h3>Also found in</h3> %>
+
+        <%#                         <ul> %>
+        <%#                             <li><a href="#">Stories</a>,</li> %>
+        <%#                             <li><a href="#">Life</a>,</li> %>
+        <%#                             <li><a href="#">Adventures</a></li> %>
+        <%#                         </ul> %>
+        <%#                     </div> %>
+
+        <%#                 </div> %>
+        <%#             </div><!-- end col --> %>
+        <%#             <div class="col-xs-12 col-sm-4"> %>
+        <%#                 <div class="social"> %>
+        <%#                     <p>Share this article</a> %>
+        <%#                     <div class="social-links"> %>
+        <%#                         <a class="social-icon" href="#" data-platform="twitter" data-message="Message about this post" data-url="http://writertheme.com/post"><i class="fa fa-twitter"></i></a> %>
+
+        <%#                         <a class="social-icon" href="#" data-platform="facebook" data-message="Message about this post" data-url="http://writertheme.com/post"><i class="fa fa-facebook-official"></i></a> %>
+
+        <%#                         <a class="social-icon" data-platform="mail"  href="mailto:support@writertheme.com"><i class="fa fa-envelope"></i></a> %>
+        <%#                     </div> %>
+        <%#                 </div> %>
+        <%#             </div> %>
+        <%#         </div><!-- end row --> %>
+        <%#     </div> %>
+
+        <%#     <div class="row read-another-section"> %>
+        <%#         <a href="post.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container"> %>
+        <%#             <div class="overlay"></div> %>
+        <%#             <img src="img/square-iceland.jpg"> %>
+        <%#             <h3 class="read-another">Land of Fire &amp; Ice</h3> %>
+        <%#         </div></a> %>
+        <%#         <a href="post.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container"> %>
+        <%#             <div class="overlay"></div> %>
+        <%#             <img src="img/square-spain.jpg"> %>
+        <%#             <h3 class="read-another">The Coast of Your Mind</h3> %>
+        <%#         </div></a> %>
+        <%#         <a href="post.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container"> %>
+        <%#             <div class="overlay"></div> %>
+        <%#             <img src="img/square-peak.jpg"> %>
+        <%#             <h3 class="read-another">Get Out of Your Comfort Zone</h3> %>
+        <%#         </div></a> %>
+        <%#         <a href="post.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container"> %>
+        <%#             <div class="overlay"></div> %>
+        <%#             <img src="img/square-woods.jpg"> %>
+        <%#             <h3 class="read-another">Not All Who Wander Are Lost</h3> %>
+        <%#         </div></a> %>
+        <%#         <a href="post.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container"> %>
+        <%#             <div class="overlay"></div> %>
+        <%#             <img src="img/square-sunset.jpg"> %>
+        <%#             <h3 class="read-another">Open Your Mind</h3> %>
+        <%#         </div></a> %>
+        <%#         <a href="post.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container"> %>
+        <%#             <div class="overlay"></div> %>
+        <%#             <img src="img/square-mountain.jpg"> %>
+        <%#             <h3 class="read-another">Ten Reasons to Hike</h3> %>
+        <%#         </div></a> %>
+        <%#     </div> %>
+        <%# </footer> %>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <%= javascript_include_tag "js/vendor/jquery.jpanelmenu.min.js" %>
+        <%= javascript_include_tag "js/vendor/boostrap.min.js" %>
+        <%= javascript_include_tag "js/vendor/fastclick.min.js" %>
+
+        <%= javascript_include_tag "js/main.js" %>
+    </body>
+</html>
+
