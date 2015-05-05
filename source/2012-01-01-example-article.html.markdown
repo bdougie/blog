@@ -3,6 +3,8 @@ title: Example Article
 date: 2012-01-01
 tags: example
 layout: post-layout
+published: false
+category: ember
 ---
 # Example Article
 

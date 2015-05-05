@@ -8,8 +8,13 @@
       <div class="post-preview col-xs-10  no-gutter">
           <p><%= article.summary(350) %></p>
           <p class="meta">
-          <p class="post-meta">Posted by <a href="http://twitter.com/brianllamar" target="_blank">
-            Brian Douglas</a> on <%= article.date.strftime('%B %e, %Y') %>
+          <p class="post-meta">Posted
+             on <%= article.date.strftime('%B %e, %Y') %>
+           <% follow_back_url = "http:/blog.brianllamar.com" + path %>
+           <% blog_title = "This Developing Journey" %>
+           <%= link_to "Mention on Twitter",
+             "https://twitter.com/intent/tweet?text=#{blog_title}:&nbsp;&via=brianllamar&url=#{follow_back_url}",
+                  target: "_blank", class: "pull-right" %>
         </p>
       </div>
     </article>
