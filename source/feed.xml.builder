@@ -1,13 +1,13 @@
 xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
-  site_url = "http://blog.url.com/"
-  xml.title "Blog Name"
-  xml.subtitle "Blog subtitle"
+  site_url = "http://blog.brianllamar.com"
+  xml.title "This Developing Journey"
+  xml.subtitle "as told by Brian Douglas"
   xml.id URI.join(site_url, blog.options.prefix.to_s)
   xml.link "href" => URI.join(site_url, blog.options.prefix.to_s)
   xml.link "href" => URI.join(site_url, current_page.path), "rel" => "self"
   xml.updated(blog.articles.first.date.to_time.iso8601) unless blog.articles.empty?
-  xml.author { xml.name "Blog Author" }
+  xml.author { xml.name "Brian Douglas" }
 
   blog.articles[0..5].each do |article|
     xml.entry do
