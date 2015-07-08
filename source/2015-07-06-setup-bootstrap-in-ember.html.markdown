@@ -5,7 +5,7 @@ tags:
 category: ember
 layout: post-layout
 ---
-# Setuping up Bootstrap in Ember in 2 steps
+# Setting up Bootstrap in Ember in 2 steps
 
 Switching to Ember from Rails or plain html has been a learning
 experience for me. Certain things that came so easy previously had to be
