@@ -1,0 +1,10 @@
+---
+title: draft1
+date: 2015-06-16 17:18 UTC
+published: false
+tags:
+---
+https://github.com/ember-cli/ember-cli/releases
+
+write an article updating you ember-cli and using rc2.0
+
