@@ -78,7 +78,7 @@ Gemfile
 
 # ...
 gem 'faker'
-gem 'active_model_serializers', '~> 0.8.1'
+gem 'active_model_serializers', '~> 0.8.3'
 #...
 ```
 
@@ -149,7 +149,7 @@ Gemfile
 
 # ...
 gem 'faker'
-gem 'active_model_serializers', '~> 0.8.1'
+gem 'active_model_serializers', '~> 0.8.3'
 gem 'rack-cors'
 #...
 ```
