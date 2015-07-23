@@ -78,7 +78,7 @@ Gemfile
 
 # ...
 gem 'faker'
-gem 'active_model_serializers', '~> 0.8.1'
+gem 'active_model_serializers', '~> 0.8.3'
 #...
 ```
 
@@ -133,7 +133,7 @@ changing data on refresh can more realistically store in the serializer.
 
 ## Enabling CORS 
 Enabling [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) is a way to grant access to your API to other sources, without opening
-up this access that is normally locked down in your app will prevent any
+up this access, your rails app will prevent any
 JS frameworks or clients from seeing any portion of your API. 
 
 This was a step that I had to learn the hard way, but am giving to you
@@ -149,7 +149,7 @@ Gemfile
 
 # ...
 gem 'faker'
-gem 'active_model_serializers', '~> 0.8.1'
+gem 'active_model_serializers', '~> 0.8.3'
 gem 'rack-cors'
 #...
 ```
