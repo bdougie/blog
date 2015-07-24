@@ -934,7 +934,7 @@ ol li {
 }
 
 .floating-head {
-  border-radius: 50%; 
+  max-width: 40%;
 }
 
 @media (min-width: 768px) {
