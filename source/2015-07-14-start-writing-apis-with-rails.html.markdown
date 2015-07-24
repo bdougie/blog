@@ -178,5 +178,4 @@ end
 Your api is ready to be consumed by your mobile and client apps. It is also worth taking a look at [Web Tokens in a JS Frontend](http://zacstewart.com/2015/05/14/using-json-web-tokens-to-authenticate-javascript-front-ends-on-rails.html) 
 if you plan on adding authentication to your application.
 
-**update:
 The [knock gem](https://github.com/nsarno/knock/?utm_source=rubyweekly&utm_medium=email) handles a lot of that for you.
