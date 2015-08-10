@@ -1,0 +1,109 @@
+---
+title: why-rust
+date: 2015-08-10 06:02 UTC
+tags:
+category: rust
+layout: post-layout
+---
+# Why Rust? From a Rubyist point of view
+
+**I realize there is already a [Rust for Rubyst](http://www.rustforrubyists.com/) and I highly recommend checking it out if you get any interest in Rust from this blog post.*
+
+I first heard of Rust from a coworker about 6 months ago while I was
+learning [GO](https://golang.org/). My background in programming comes
+solely from learning Ruby, specifically Ruby on Rails. 
+
+Not having a Computer Science degree/background has not hindered me in
+my career but I have always been interested in learning some more lower level more concepts in improving runtime speed and building impressive Data Structures.
+
+Although I did start programming in Ruby I did complete most of the [Harvard EDX
+course](https://cs50.harvard.edu/), which starts with basic C. I did not
+take many notes and skipped most of the assignments. I wish didn't skip
+as much now, since I am now using some of that knowledge now I re-learning those concepts now with Rust. 
+
+## What is Rust?
+Rust is a low level systems programming language that focuses on specifically on
+fast but safe code. Rust positions itself as the new C++, historically a
+very powerful language that gives authors a large amount of control.
+The issue with C++ is that is widely known to have unsafe expoitablt
+vunerabilities. 
+
+The majority of web browsers are written using unsafe C++ coding practices. Mozilla, one of
+the biggest investors into the Rust community, participates in a [hacking
+competition](https://en.wikipedia.org/wiki/Pwn2Own) to exploit and
+discover those
+specific vulnerabilities.  
+
+Rust is a safe language by default and with the birth of the 1.0 (now 1.2) release, the Rust community is
+growing and gaining more attention from not only Systems level
+programmers but also high level(Ruby, Node, and Python) programmers who
+previously saw systems programming unobtainable. 
+
+## Why would I use Rust and not Ruby?
+Hands down the selling point for Rust is it's speed. Having a low level
+language focused on speed in your programming tool chain could only
+help. 
+
+Ruby abstracts all the lower level things out of the language so you do
+not need to worry about them. This is extremely nice for fast prototyping
+and programming write speed, but the trade is run time speed. 
+
+Languages like Rust, that give back the low level control trade-off on
+programming speed, but where C++ has it's quirky syntax, Rust has a nice
+Rubyesque syntactic sugar that makes it easier to understand compared to
+C and C++. 
+
+```
+// Hello World
+
+fn main() {
+    println!("Hello World!");
+}
+```
+
+I was able to see this first hand with the latest release of the [Rusting
+Rubyist](https://medium.com/@mfpiccolo/a-rusting-rubyist-v-496fb7b1cbbf)
+while building a HTTP scraper. 
+
+With that being said there are a number of Ruby gems being used in
+production apps using low level C and C++, which makes Rust a perfect
+candidate to be used in your Ruby gems today and a better way to improve
+the performance of them.
+
+```
+// Rust Closure Syntax
+
+let plus_two = |x| {
+    let mut result: i32 = x;
+
+    result += 1;
+    result += 1;
+
+    result
+};
+
+```
+
+Skylight is one of the first to use Rust in this way in production and have [benefiting from](https://news.ycombinator.com/item?id=8321767) speed and memory management for over a year now.  
+
+## What can I do with Rust today?
+My recommendation is to start with the [Rust Book](https://doc.rust-lang.org/stable/book/) today. The
+documentation is written well and supported by the Mozilla employee [Steve
+Klabnik](https://twitter.com/steveklabnik), who has crafted an easy to read [guide](https://doc.rust-lang.org/stable/book/).
+
+I found this guide to be unique from others, as it starts not with the
+in and outs of syntax and low level concepts, but starts with you
+building small command line programs using rust hands on.
+
+Once you have read through this guide I highly recommend working through
+the [Mike Piccolo's Blog series](https://medium.com/@mfpiccolo/a-rusting-rubyist-v-496fb7b1cbbf).
+
+There is so much more for me to learn on systems programming in Rust,
+      but I have sights on eventually contributing to Rust by trying things out and
+hopefully building some sort of Slack/Rust integration. I am not quite
+sure how I will go about doing this, but stay tuned, as it will most
+likely be blogged about here when I figure it out. 
+
+Read my [web scraper](https://github.com/brianllamar/rust_scraper) and [guessing game rust code](https://github.com/brianllamar/guessing_game). 
+I also highly recommend the Changelog podcast [episode 151](http://5by5.tv/changelog/151) which explains
+more about Rust. 
