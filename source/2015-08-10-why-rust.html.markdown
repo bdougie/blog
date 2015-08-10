@@ -46,12 +46,13 @@ help.
 
 Ruby abstracts all the lower level things out of the language so you do
 not need to worry about them. This is extremely nice for fast prototyping
-and programming write speed, but the trade is run time speed. 
+and project code time, but the trade is run time speed. 
 
 Languages like Rust, that give back the low level control trade-off on
 programming speed, but where C++ has it's quirky syntax, Rust has a nice
 Rubyesque syntactic sugar that makes it easier to understand compared to
-C and C++. 
+C and C++ and could perhaps be not as much of a burden to write in
+projects (clearly speculative). 
 
 ```
 // Hello World
@@ -91,7 +92,7 @@ My recommendation is to start with the [Rust Book](https://doc.rust-lang.org/sta
 documentation is written well and supported by the Mozilla employee [Steve
 Klabnik](https://twitter.com/steveklabnik), who has crafted an easy to read [guide](https://doc.rust-lang.org/stable/book/).
 
-I found this guide to be unique from others, as it starts not with the
+I found this guide to be unique from others, as it does not start with the
 in and outs of syntax and low level concepts, but starts with you
 building small command line programs using rust hands on.
 
