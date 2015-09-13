@@ -11,7 +11,9 @@ https://github.com/ember-cli/ember-cli/releases
 
 write an article updating you ember-cli and using rc2.0
 
-# setting up ember adapter
+# setting up ember adapter proxy
+
+https://github.com/bdougie/hussln-client/commit/30c17d5e09c1a3f246a5f0b0f9be623b6c93fe67
 
 divshot and netlify are choices
 
