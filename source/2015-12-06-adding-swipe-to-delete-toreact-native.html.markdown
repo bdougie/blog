@@ -23,20 +23,22 @@ Having this limitation, I had to rely on a 3rd-party library to enable the delet
 
 ![swipeout example](http://i.imgur.com/j2GGAki.gif)
 
-The use of this library is pretty straight forward and only requires the an import of the Swipeout component to wrap whichever component you would like to be swipeable.
+The use of this library is pretty straight forward and only requires the import of the Swipeout component to wrap whichever component you would like to be swipeable.
+
+<script src="https://gist.github.com/bdougie/1d22bf219044944f413a.js"></script>
 
 You also need to add a variable (swipeBtns) containing the props for the swipe buttons.
 
-<script src="https://gist.github.com/bdougie/1d22bf219044944f413a.js"></script>
+![finished example gif](http://i.imgur.com/jXIhYNk.gif)
 
 Note that the swipeBtns holds objects within an array, allowing you to add multiple buttons to your Swipeout view. 
 
 <script src="https://gist.github.com/bdougie/3194b635ebac34e2beef.js"></script>
 
-This Swipeout library and React Native are still fairly new and still a work in progress, but for the functionality to delete rows in my ListView, it works great.
+![duplicate example](http://i.imgur.com/VbgjJ7Sl.png)
 
-![finished example gif](http://i.imgur.com/jXIhYNk.gif)
+This Swipeout library and React Native are still fairly new and still a work in progress, but for the functionality to delete rows in my ListView, it works great.
 
 If you are interested, you can view the my note app example [source code on my github](https://github.com/bdougie/BlackNotes). To checkout how “Swipe To Delete” works in native iOS apps, check out this Objective example here.
 
-If you are interested in hearing about more details comparing React Native to Native iOS, come watch my talk at [Forward Conference](http://forwardjs.com/summit) in February 2016.
+Also, If you are interested in hearing about more details comparing React Native to Native iOS, come watch my talk at [Forward Conference](http://forwardjs.com/summit) in February 2016.

@@ -55,3 +55,4 @@ So if you are find yourself struggling to figure out your private methods and bu
 
 I recently had this opportunity to use the concept of DCI thanks to the book [Clean Ruby](http://clean-ruby.com/) and I highly recommend it if you would like to find out more.
 
+*This article was originally posted on [code.bloc.io](http://code.bloc.io/) 
