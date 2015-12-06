@@ -11,7 +11,9 @@ https://github.com/ember-cli/ember-cli/releases
 
 write an article updating you ember-cli and using rc2.0
 
-# setting up ember adapter
+# setting up ember adapter proxy
+
+https://github.com/bdougie/hussln-client/commit/30c17d5e09c1a3f246a5f0b0f9be623b6c93fe67
 
 divshot and netlify are choices
 
@@ -20,3 +22,6 @@ api, make sure you set up your CORS.
 # set up CORS in rails api
 use the fem
 
+# set your gopath
+http://stackoverflow.com/questions/21499337/cannot-set-gopath-on-mac-osx
+use the ~./bash_profile not the ~/.bashrc

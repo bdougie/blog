@@ -1,2 +1,2 @@
-# blog.brianllamar.com
+# blog.briandouglas.me
 My blog
