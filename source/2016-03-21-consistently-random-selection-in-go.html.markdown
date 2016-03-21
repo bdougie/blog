@@ -5,7 +5,7 @@ tags: go
 category: go
 layout: post-layout
 ---
-# Consistent Random Selection in Go
+# Consistently Random Selection in Go
 
 
 I am relatively new to Go and have found it relatively easy to pick up how to do things, but every now and then something trips me up.
