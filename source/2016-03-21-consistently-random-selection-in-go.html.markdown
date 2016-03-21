@@ -32,7 +32,7 @@ possible_reviewers = %w(
 )
 
 three_reviewers = possible_reviewers.sample(3).join(‘, ‘)
-print “#{four_reviewers}\n#{note}\n”
+print “#{three_reviewers}\n#{note}\n”
 
 ```
 
