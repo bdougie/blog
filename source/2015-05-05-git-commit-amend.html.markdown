@@ -1,5 +1,5 @@
 ---
-title: git-commit-amend
+title: git commit --amend
 date: 2015-05-05 04:20 UTC
 tags:
 category: git

@@ -1,5 +1,5 @@
 ---
-title: why-rust
+title: Why Rust? From a Rubyist point of view
 date: 2015-08-10 06:02 UTC
 tags:
 category: rust

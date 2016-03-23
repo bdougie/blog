@@ -1,5 +1,5 @@
 ---
-title: how-to-test-react-native-on-your-device
+title: How to Test a React Native App on Your iPhone
 date: 2015-12-20 16:57 UTC
 tags: react-native, ios
 category: react

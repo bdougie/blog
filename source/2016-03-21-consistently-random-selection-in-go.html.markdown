@@ -1,5 +1,5 @@
 ---
-title: consistently-random-selection-in-go
+title: Consistently Random Selection in Go
 date: 2016-03-21 04:41 UTC
 tags: go
 category: go

@@ -1,5 +1,5 @@
 ---
-title: deploying-your-ember-app
+title: Deploying your first ember app
 date: 2015-08-30 14:52 UTC
 tags:
 category: ember

@@ -1,5 +1,5 @@
 ---
-title: adding-swipe-to-delete-toreact-native
+title: Adding Swipe to Delete in React Native
 date: 2015-12-06 18:48 UTC
 tags: react-native
 category: react-native

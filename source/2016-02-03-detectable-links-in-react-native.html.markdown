@@ -1,5 +1,5 @@
 ---
-title: detectable-links-in-react-native
+title: Detectable Links in React Native
 date: 2016-02-03 05:39 UTC
 tags: react-native, ios
 category: react

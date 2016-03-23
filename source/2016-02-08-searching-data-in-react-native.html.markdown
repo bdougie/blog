@@ -1,5 +1,5 @@
 ---
-title: searching-data-in-react-native
+title: Searching Data in React Native
 date: 2016-02-08 01:01 UTC
 tags: react-native, ios
 category: react

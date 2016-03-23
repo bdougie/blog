@@ -1,5 +1,5 @@
 ---
-title: my-guide-to-learning-ember
+title: My Guide to Learning Ember
 date: 2015-05-11 04:40 UTC
 tags:
 category: ember

@@ -1,5 +1,5 @@
 ---
-title: codenewbie-creating-an-api
+title: Creating an API with Ruby #SaturdayDiscussion
 date: 2015-12-19 22:05 UTC
 tags: api, rails, json
 category: rails

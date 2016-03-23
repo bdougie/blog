@@ -3,9 +3,26 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>This Developing Journey</title>
-        <meta name="description" content="">
+
+        <title><%= "This Developing Journey | " + current_page.data.title || "This Developing Journey" %></title>
+        <meta name="description" content="Discoveries into Go, JavaScript, and Ruby">
+
         <meta name="viewport" content="width=device-width">
+        <!-- Extra Meta-->
+        <!-- Twitter Card data -->
+        <meta name="twitter:site" content="@bdougYO">
+        <meta name="twitter:title" content="This Developing Journey">
+        <meta name="twitter:creator" content="@bdougieYO">
+        <-- Twitter Summary card images must be at least 120x120px -->
+        <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/378800000866149076/IQhqAfva.jpeg">
+
+        <!-- Open Graph data -->
+        <meta property="og:title" content="This Developing Journey" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="http://blog.briandouglas.me" />
+        <meta property="og:image" content="http://netlify.scdn4.secure.raxcdn.com/images/ced071bb56f55694eeb9d01d3c0a35d3b561d38d/brian.jpg" />
+        <meta property="og:description" content="Discoveries into Go, JavaScript, and Ruby" /> 
+        <meta property="og:site_name" content="This Developing Journey" />
 
         <%= stylesheet_link_tag "css/font-awesome.min.css" %>
         <%= stylesheet_link_tag "css/bootstrap.min.css" %>
