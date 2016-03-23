@@ -11,3 +11,5 @@ gem "builder", "~> 3.0"
 gem 'middleman-rouge'
 gem 'redcarpet'
 gem 'nokogiri'
+
+gem 'middleman-search_engine_sitemap'
