@@ -1,5 +1,5 @@
 ---
-title: Clean your Privates with DCI
+title: Cleaner Privates with DCI
 date: 2015-09-13 07:27 UTC
 tags:
 category: ruby
