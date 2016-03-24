@@ -1,5 +1,5 @@
 ---
-title: Start writing API's in Rails
+title: Start writing APIs in Rails
 date: 2015-07-14 15:29 UTC
 tags: api, rails, json
 category: rails
