@@ -4,6 +4,7 @@ date: 2016-03-21 04:41 UTC
 tags: go
 category: go
 layout: post-layout
+summary: A simple task I gave myself was to rewrite a script I wrote in Ruby, in Go. This script takes a list of my coworkers and picks 3 of them at random to alert about my new pull request.
 ---
 # Consistently Random Selection in Go
 
