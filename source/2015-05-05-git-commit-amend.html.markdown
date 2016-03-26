@@ -4,6 +4,7 @@ date: 2015-05-05 04:20 UTC
 tags:
 category: git
 layout: post-layout
+summary: Multiple times I have found myself in need of editing my commit messages due to typos or unclear messages. I have that the use of git commit --amend and git reset -- hard.
 ---
 # git commit --amend
 

@@ -4,6 +4,8 @@ date: 2015-07-06 07:05 UTC
 tags:
 category: ember
 layout: post-layout
+summary: Switching to Ember from Rails or plain html has been a learning
+experience.
 ---
 # Setting up Bootstrap in Ember in 2 steps
 

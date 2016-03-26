@@ -4,6 +4,7 @@ date: 2015-12-19 22:05 UTC
 tags: api, rails, json
 category: rails
 layout: post-layout
+summary: This is online webinar on how to approach building your API 
 ---
 # Creating an API with Ruby #SaturdayDiscussion 
 
