@@ -77,7 +77,7 @@ activate :search_engine_sitemap
 By default the generator will update once a month. You can now
 confirm this all works by going to your site's root url
 `/sitemap.xml`. If you see something there, you did everything
-correctly.
+correctly, You check on this site [here](http://developingjourney.netlify.com/sitemap.xml)
 
 ## Submit your site to Google
 
