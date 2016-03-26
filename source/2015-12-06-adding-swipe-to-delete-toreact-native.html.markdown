@@ -4,7 +4,6 @@ date: 2015-12-06 18:48 UTC
 tags: react-native
 category: react-native
 layout: post-layout
-summary: Adding Swipe to Delete in React Native I am currently working on a mobile note app from the Bloc iOS curriculum and  discovered certain things in iOS transfer over to React Native well.
 ---
 # Adding Swipe to Delete in React Native
 

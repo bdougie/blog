@@ -4,7 +4,6 @@ date: 2015-12-20 16:57 UTC
 tags: react-native, ios
 category: react
 layout: post-layout
-summary: I spent a good amount of time learning iOS using Xcode, Swift, an Objective-C before giving React Native a try, which makes pretty familiar with iOS development as a whole. 
 ---
 # How to Test a React Native App on Your iPhone 
 

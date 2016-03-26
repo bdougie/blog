@@ -4,7 +4,7 @@ date: 2015-08-30 14:52 UTC
 tags:
 category: ember
 layout: post-layout
-summary: For every Rails app I have created and thought about creating I have used Heroku. I have never had a need to use anything else, as none of the apps I have developed had users and needed to grow beyond the same place of Heroku.
+summary: Deploying Ember with Divshot explained
 ---
 # Deploying your first ember app
 

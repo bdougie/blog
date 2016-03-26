@@ -4,7 +4,7 @@ date: 2015-07-14 15:29 UTC
 tags: api, rails, json
 category: rails
 layout: post-layout
-summary: With the popularity of Javascript frameworks and the move to cross platform development, Now is a good time to start writing your green-field applications with an API first mindset. 
+summary: How to get started with the rails-api gem
 ---
 # Start writing API's in Rails
 

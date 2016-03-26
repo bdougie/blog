@@ -4,7 +4,6 @@ date: 2015-08-10 06:02 UTC
 tags:
 category: rust
 layout: post-layout
-summary: I realize there is already a [Rust for Rubyst](http://www.rustforrubyists.com/) and I highly recommend checking it out if you get any interest in Rust from this blog post.
 ---
 # Why Rust? From a Rubyist point of view
 

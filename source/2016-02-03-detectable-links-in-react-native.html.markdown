@@ -4,7 +4,6 @@ date: 2016-02-03 05:39 UTC
 tags: react-native, ios
 category: react
 layout: post-layout
-summary: Having  some  iOS knowledge, I have a good idea on how to get things done in the Standard NSLibrary.
 ---
 
 # Detectable Links in React Native

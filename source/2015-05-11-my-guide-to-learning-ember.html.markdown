@@ -4,7 +4,7 @@ date: 2015-05-11 04:40 UTC
 tags:
 category: ember
 layout: post-layout
-summary: Less than a year ago I took on the challenge of learning to develop with the ember(front-end javacript framework). I gave up rather quickly and did not revisit the challenge until I found a pretty indepth tutorial, which is now outdated. Shortly after the completion of this app I learned of ember-cli which has significantly decreased the size of my ember learning curve.
+summary: quick tips on learnign Ember
 ---
 # My Guide to Learning Ember
 

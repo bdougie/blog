@@ -4,7 +4,7 @@ date: 2015-09-13 07:27 UTC
 tags:
 category: ruby
 layout: post-layout
-summary: Understanding the context of code in a team repo is hard and it's harder when the solution to figuring how code works is
+summary: DCI in Ruby
 ---
 # Clean your Privates with DCI
 

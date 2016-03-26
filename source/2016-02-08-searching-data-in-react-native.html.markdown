@@ -4,7 +4,6 @@ date: 2016-02-08 01:01 UTC
 tags: react-native, ios
 category: react
 layout: post-layout
-summary: Learning how to do things in React Native requires a balance of using React Native 3rd party libraries, JavaScript libraries, and Native iOS code. 
 ---
 # Searching Data in React Native
 
