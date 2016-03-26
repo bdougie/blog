@@ -1,5 +1,5 @@
 ---
-title: adding-seo-to-your-middleman-blog
+title: Adding SEO To Your Middleman Site
 date: 2016-03-26 09:29 UTC
 tags: blog, middleman
 category: react
