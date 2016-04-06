@@ -92,7 +92,7 @@ I spent sometime trying to figure this out and found two very imformative thread
 
 [Random generator always returns same value on every run](https://groups.google.com/forum/#!topic/golang-nuts/TzsEceDLGI0)
 
-The easiest and most legit solution is seeding `rand` with something. By default the seed is `1` which is why the same result is return, but by seeding my `rand` with `time.Now().UnixNano()`, I get get something more random, which is expected. 
+The easiest and most legit solution is seeding `rand` with something. By default the seed is `1` which is why the same result is return, but by seeding my `rand` with `time.Now().UnixNano()`, I get something more random, which is expected. 
 
 
 ```
