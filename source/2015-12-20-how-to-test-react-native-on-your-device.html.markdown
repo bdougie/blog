@@ -19,7 +19,7 @@ Setting up your React Native project to test on your iPhone is a little confusin
 
 ## Access node development server on device
 
-Running your app locally only requires you to add your Mac’c IP address in AppDelegate.m file under the iOS file system
+Running your app locally only requires you to add your [Mac’s IP address](https://www.google.com/search?q=Mac%E2%80%99c+IP+address&oq=Mac%E2%80%99c+IP+address&aqs=chrome..69i57j0.254j0j7&sourceid=chrome&ie=UTF-8#q=mac+ip+address) in AppDelegate.m file under the iOS file system
 
 Find the `jsCodeLocation` variable and change localhost in the `NSURL` to your IP.
 
