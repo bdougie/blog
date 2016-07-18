@@ -25,3 +25,7 @@ $ ember install ember-cli-divshot
 $ ember generate divshot
 $ ember divshot push
 ```
+
+# Update:
+
+[Divshot](https://divshot.com/) was purchase by Firebase. Use [ember-cli-deploy instead](http://ember-cli-deploy.github.io/ember-cli-deploy/docs/v0.6.x/quick-start/) 
