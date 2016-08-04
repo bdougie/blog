@@ -88,5 +88,7 @@ class LoginPage extends React.Component {
 ```
 How do you handle binding class methods in React, what are your thoughts?
 
+**Update: There is a great discussion on some alternative solutions to this problem [here](https://discuss.reactjs.org/t/basecomponent-baseclass-for-autobinding-methods/4468/4)*
+
 For a better understanding on `this` in JavaScript, check out the
 article [Gentle explanation of 'this' keyword in JavaScript](https://rainsoft.io/gentle-explanation-of-this-in-javascript)
