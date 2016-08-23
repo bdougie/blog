@@ -52,9 +52,8 @@ The nice thing about Go is Slices (Their version of Arrays) does not
 have those functions built in. The only thin available is `append()`, which
 adds an item to the end of the list. 
 
-Once I figured this out, I used it to work through this simple problem. 
-
-I actually was determined to learn Go well, so I also wrote tests
+Once I figured this out, I used it to work through this simple problem.
+If anything is unclear below, I higly recommend using the [Tour of Go](https://tour.golang.org/welcome/1) to get a quick overview of the language. 
 
 
 ```
@@ -121,7 +120,9 @@ This assignment was enlightening and though I am sure this is not the
 cleanest code, I am pretty proud of it and my ability to learn a new
 language with the intentions of learning a new language.
 
-You can see the full code in my [playground](https://play.golang.org/p/I-O_wGBLVN) or via this [GitHub link](https://github.com/bdougie/bloc-data-structures/blob/master/intro_to_data_structures/assignment.go) - PRs are welcomed. I also wrote this with TDD and have my test below as well.
+I actually was determined to learn Go well, so I wrote this code using [TDD](https://en.wikipedia.org/wiki/Test-driven_development) and have my test below as well.
+
+You can see the full code in my [playground](https://play.golang.org/p/I-O_wGBLVN) or via this [GitHub link](https://github.com/bdougie/bloc-data-structures/blob/master/intro_to_data_structures/assignment.go) - PRs are welcomed.
 
 ```
 package main
@@ -157,4 +158,4 @@ func TestRemovingFromLine(t *testing.T) {
 }
 ```
 Please stay tuned for my next post, where I dive deeper into Stacks and
-Queues in Go.
+Queues in Go, as well how Structs are the most useful data structure.
