@@ -53,7 +53,7 @@ have those functions built in. The only thin available is `append()`, which
 adds an item to the end of the list. 
 
 Once I figured this out, I used it to work through this simple problem.
-If anything is unclear below, I higly recommend using the [Tour of Go](https://tour.golang.org/welcome/1) to get a quick overview of the language. 
+If anything is unclear below, I highly recommend using the [Tour of Go](https://tour.golang.org/welcome/1) to get a quick overview of the language. 
 
 
 ```
