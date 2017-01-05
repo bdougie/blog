@@ -44,6 +44,11 @@ activate :blog do |blog|
   blog.page_link = "page/{num}"
 end
 
+# Redirects
+redirect "/2016", to: "/posts/2016"
+redirect "/2015", to: "/posts/2015"
+
+
 # pretty_urls
 activate :directory_indexes
 
