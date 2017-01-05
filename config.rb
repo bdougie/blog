@@ -21,7 +21,7 @@ activate :rouge_syntax
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
-  # blog.prefix = "blog"
+  blog.prefix = "posts"
 
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files
@@ -33,7 +33,7 @@ activate :blog do |blog|
   # blog.year_link = "{year}.html"
   # blog.month_link = "{year}/{month}.html"
   # blog.day_link = "{year}/{month}/{day}.html"
-  # blog.default_extension = ".markdown"
+  blog.default_extension = ".md"
 
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
@@ -46,9 +46,6 @@ end
 
 # pretty_urls
 activate :directory_indexes
-
-# Redirects
-# redirect "/2016/07/18/binding-es-class-methods-in-react.html", to: "/2016/07/18/binding-es-class-methods-in-react"
 
 page "/feed.xml", layout: false
 page "/sitemap.xml", :layout => false
@@ -131,4 +128,5 @@ configure :build do
   # meta tag helper
   activate :meta_tags
 end
+
 
