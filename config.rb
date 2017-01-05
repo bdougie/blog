@@ -47,6 +47,9 @@ end
 # pretty_urls
 activate :directory_indexes
 
+# Redirects
+# redirect "/2016/07/18/binding-es-class-methods-in-react.html", to: "/2016/07/18/binding-es-class-methods-in-react"
+
 page "/feed.xml", layout: false
 page "/sitemap.xml", :layout => false
 
@@ -128,3 +131,4 @@ configure :build do
   # meta tag helper
   activate :meta_tags
 end
+
