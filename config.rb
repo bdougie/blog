@@ -44,13 +44,10 @@ activate :blog do |blog|
   blog.page_link = "page/{num}"
 end
 
-# Redirects
-redirect "/2016", to: "/posts/2016"
-redirect "/2015", to: "/posts/2015"
-
-
 # pretty_urls
 activate :directory_indexes
+
+activate :livereload
 
 page "/feed.xml", layout: false
 page "/sitemap.xml", :layout => false
@@ -134,4 +131,11 @@ configure :build do
   activate :meta_tags
 end
 
-
+# move your redirects
+after_build do |builder|
+  src = File.join(config[:source],"_redirects")
+  dst = File.join(config[:build_dir],"_redirects")
+  builder.source_paths << File.dirname(__FILE__)
+  builder.copy_file(src,dst)
+  puts "Done building"
+end
