@@ -4,7 +4,7 @@ backend:
   branch: live-blog # Branch to update (master by default)
 
 media_folder: "source/img/uploads" # Folder where user uploaded files should go
-# public_folder: "source" # CMS now knows 'source' is the public folder and will strip this from the path
+public_folder: "source" # CMS now knows 'source' is the public folder and will strip this from the path
 
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
