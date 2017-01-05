@@ -1,7 +1,7 @@
 <div class="home-page-posts animated fadeIn ">
 
   <% page_articles.each_with_index do |article, i| %>
-    <% path = "/#{article.date.strftime('%Y')}/#{article.date.strftime('%m')}/#{article.date.strftime('%d')}/#{article.title.split(" ").join("-").downcase}.html" %>
+    <% path = "/#{article.date.strftime('%Y')}/#{article.date.strftime('%m')}/#{article.date.strftime('%d')}/#{article.title.split(" ").join("-").downcase}" %>
     <a href=<%= path %>>
 
       <article class="post">

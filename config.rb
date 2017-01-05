@@ -44,6 +44,9 @@ activate :blog do |blog|
   blog.page_link = "page/{num}"
 end
 
+# pretty_urls
+activate :directory_indexes
+
 page "/feed.xml", layout: false
 page "/sitemap.xml", :layout => false
 
