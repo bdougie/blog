@@ -1,14 +1,17 @@
 ---
 title: Learn Computer Science with Go
-date: 2016-08-23 05:05 UTC
-tags: go, computer-science
+date: '2016-08-23 05:05 UTC'
+tags: 'go, computer-science'
 category: go
 layout: post-layout
-summary: Go is one of the best languages to learn computer science. Thanks the compiler and built in fmt tool.
+summary: >-
+  Go is one of the best languages to learn computer science. Thanks the compiler
+  and built in fmt tool.
 ---
+
 # Learn Computer Science with Go
 
-The company I mentor for realeased a course that teaches Software
+The company I mentor for released a course that teaches Software
 Engineering Principles, which includes basic Computer Sciences concepts.
 I had the opportunity to audit the course and learn about Data
 Structures.
