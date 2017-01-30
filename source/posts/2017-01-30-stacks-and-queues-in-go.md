@@ -102,6 +102,11 @@ func TestStackIsLIFO(t *testing.T) {
 }
 ```
 
+Go allows Structs have the ability to create functions associated with them, similar to Class functions  are like class
+
+explain push
+
+explain pop
 
 
 In Go you can add functions to Structs, sort of similar to Class functions in dynamic languages. 
