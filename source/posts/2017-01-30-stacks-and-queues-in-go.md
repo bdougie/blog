@@ -63,6 +63,37 @@ func (s *Stack) Pop() interface{} {
 }
 ```
 
+
+Go allows Structs have the ability to create functions associated with them, similar to Class functions in dynamic languages. The first argument is actually not an argument but the Struct the function will be used on. It is then followed by the function name and then the actual arguments.
+
+Here I am creating the `Push` function to be used on any Stack. I first set the top attribute of the Stack to be a new Element created using the value arguments. I am setting the next Element as the current top, which in this case is null. I also set the stack attribute as the current Stack I am working with.
+
+
+```
+func  (s *Stack) Push(value interface{}) {  // value is an interface type
+	s.top = &Element{value: value, stack: s, next: s.top} // set the top as a new Element using
+	s.size++ // increases size by 1
+}
+```
+
+
+The `Pop` function is a bit similar to the `Push` function but in reverse. I first wrap my operation into a conditional to check to see if the size of the Stack is greater than 0; No point popping if the Stack is empty. I then proceed to set the top attribute as the next attribute and decrease the stack size by 1. 
+
+I also create store the value being popped into a variable to return. This is to prepare for an event where I might want to immediately use the value for another operation. This is just mirror how I know `:pop` works in Ruby.
+
+```
+func (s *Stack) Pop() interface{} {
+	if s.size > 0 {  // conditional to make sure the Stack size is greater than 0
+		value := s.top.value // saves the value of the top attribute
+		s.top = s.top.next // overwrites the top Element by setting the next Element as top 
+		s.size-- // decrements the size by 
+		return value // returns the value
+	}
+
+	return nil // returns nil instead of an error if the size is 0
+}
+```
+
 My implementation of Stacks were created using Test Driven Development, an excellent way to stay sane while exploring a new language. 
 
 ```
@@ -102,13 +133,5 @@ func TestStackIsLIFO(t *testing.T) {
 }
 ```
 
-Go allows Structs have the ability to create functions associated with them, similar to Class functions  are like class
-
-explain push
-
-explain pop
-
-
-In Go you can add functions to Structs, sort of similar to Class functions in dynamic languages. 
 
 Writing a Stack in Go was a great way to explore the Structs in Go further. Stayed tuned for my next post to see my implementation of Queue data structure in Go. 
