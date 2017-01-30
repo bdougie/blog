@@ -4,7 +4,11 @@ layout: post-layout
 tags: go
 category: go
 date: 2017-01-30T21:37:27.914Z
-summary: null
+summary: >-
+  A Stack is an abstract data type that serves as a collection of elements with
+  two principle operations, pop and push. If you think of the Stack as a deck of
+  cards, you can only add to the top of the Stack and remove the top of the
+  Stack. 
 ---
 
 # Stacks and Queues in Go
