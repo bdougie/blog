@@ -43,7 +43,7 @@ type Element struct {
 
 ```
 
-I am trying to avoid using as many non-standard library packages as possible, so I also opted in writing my own implementations of **Pop()**, **Push()**, etc but couldn't help but be inspired from godash.  
+I am trying to avoid using as many non-standard library packages as much as possible, so I also opted in writing my own implementations of **Pop()**, **Push()**, etc but couldn't help but be inspired from godash.  
 
 ```
 func (s *Stack) Push(value interface{}) {
@@ -94,7 +94,7 @@ func (s *Stack) Pop() interface{} {
 }
 ```
 
-My implementation of Stacks were created using Test Driven Development, an excellent way to stay sane while exploring a new language. 
+My implementation of Stacks was created using Test Driven Development, an excellent way to stay sane while exploring a new language like Go. 
 
 ```
 package main
@@ -133,5 +133,4 @@ func TestStackIsLIFO(t *testing.T) {
 }
 ```
 
-
-Writing a Stack in Go was a great way to explore the Structs in Go further. Stayed tuned for my next post to see my implementation of Queue data structure in Go. 
+Writing a Stack data structure in Go was a great way for me to explore not Structs in Go further, but also a great intro to Computer Science for myself as well. Stayed tuned for my next post to see my implementation of Queue data structure in Go. 
