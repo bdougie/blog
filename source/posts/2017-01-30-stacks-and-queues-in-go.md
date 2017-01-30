@@ -19,9 +19,9 @@ From my experience in the web in the past 3 years, I have never come across the 
 
 ## Stack
 
-A Stack is an abstract data type that serves as a collection of elements with two principle operations, pop and push. If you think of the Stack as a deck of cards, you can only add to the top of the Stack and remvoe the top of the Stack.
+A Stack is an abstract data type that serves as a collection of elements with two principle operations, pop and push. If you think of the Stack as a deck of cards, you can only add to the top of the Stack and remove the top of the Stack.
 
-Building a Stack in Go only requires two functions **:push** and :**pop** to interface with it. I chose to not use an array as my underlying data structure in my Stack structure but followed from some inspiration from [godash](https://godoc.org/github.com/Kairi/godash). The Stack data also needs two attributes, **size** and the element on **top**. 
+Building a Stack in Go only requires two functions **Push()** and **Pop()** to interface with it. I chose to not use an array as my underlying data structure in my Stack structure but followed from some inspiration from [godash](https://godoc.org/github.com/Kairi/godash). The Stack data also needs two attributes, **size** and the element on **top**. 
 
 ```
 type Stack struct {
@@ -43,7 +43,7 @@ type Element struct {
 
 ```
 
-I am trying to avoid using as many non-standard library packages as possible, so I also opted in writing my own implementations of **:pop**, **:push**, etc but couldn't help but be inspired from godash.  
+I am trying to avoid using as many non-standard library packages as possible, so I also opted in writing my own implementations of **Pop()**, **Push()**, etc but couldn't help but be inspired from godash.  
 
 ```
 func (s *Stack) Push(value interface{}) {
