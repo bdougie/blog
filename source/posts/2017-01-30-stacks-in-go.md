@@ -12,7 +12,6 @@ summary: >-
 
 # Stacks in Go
 
-
 One of the first things I implemented in Go was a simple data structure to keep track of individuals entering and leaving an amusement park ride line, I outlined the assignment in my [previous post](/posts/2016/08/23/learn-computer-science-with-go). This was pretty trivial to do using Slices in Go, but thanks to my discoveries I realize there are other data structures than Arrays in Computer Science.  
 
 From my experience during 3 years of web development, I have never come across the term **Stack**. My day to day work mostly uses larger frameworks in Ruby and JavaScript. All the implementation details are usually decided for me, which makes it no mistery why I never came across this term.
