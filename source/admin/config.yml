@@ -3,22 +3,22 @@ backend:
   repo: bdougie/blog # Path to your Github repository
   branch: live-blog # Branch to update (master by default)
 
-publish_mode: editorial_workflow
-
 media_folder: "source/img/uploads" # Folder where user uploaded files should go
 public_folder: "source" # CMS now knows 'source' is the public folder and will strip this from the path
 
+publish_mode: editorial_workflow
 
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
     folder: "source/posts" # The path to the folder where the documents are stored
-    sort: "date:asc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "post-layout"}
-      - {label: "Category", name: "category", widget: "string", tagname: "p"}
+      - {label: "Tags", name: "tags", widget: "string"}
+      - {label: "Category", name: "category", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Summary", name: "summary", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
