@@ -63,4 +63,47 @@ func (s *Stack) Pop() interface{} {
 }
 ```
 
+My implementation of Stacks were created using Test Driven Development, an excellent way to stay sane while exploring a new language. 
+
+```
+package main
+
+import (
+	"github.com/stretchr/testify/assert"
+	"testing"
+)
+
+func TestStackIsInitializedEmpty(t *testing.T) {
+	s := new(Stack)
+	assert.Equal(t, true, s.IsEmpty())
+}
+
+func TestItemCanBePushedOntoStack(t *testing.T) {
+	s := new(Stack)
+	s.Push("12")
+	assert.Equal(t, false, s.IsEmpty())
+}
+
+func TestItemCanBePopOffStack(t *testing.T) {
+	s := new(Stack)
+	s.Push("7")
+	assert.Equal(t, false, s.IsEmpty())
+	s.Pop()
+	assert.Equal(t, true, s.IsEmpty())
+}
+
+func TestStackIsLIFO(t *testing.T) {
+	s := new(Stack)
+	s.Push("First")
+	s.Push("Last")
+	s.Pop()
+	top := s.top.value
+	assert.Equal(t, "First", top)
+}
+```
+
+
+
 In Go you can add functions to Structs, sort of similar to Class functions in dynamic languages. 
+
+Writing a Stack in Go was a great way to explore the Structs in Go further. Stayed tuned for my next post to see my implementation of Queue data structure in Go. 
