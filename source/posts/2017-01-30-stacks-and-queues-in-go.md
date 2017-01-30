@@ -1,7 +1,7 @@
 ---
-title: Stacks and Queues in Go
+title: Stacks in Go
 layout: post-layout
-tags: go
+tags: 'go, computer science'
 category: go
 date: 2017-01-30T21:37:27.914Z
 summary: >-
@@ -10,18 +10,18 @@ summary: >-
   learn the language, which I will explain further in this post.
 ---
 
-# Stacks and Queues in Go
+# Stacks in Go
 
 
-One of the first things I implemented in Go was a simple data structure to keep track of individuals entering and leaving an amusement park ride line, I outline the assignment in my [previous post](/posts/2016/08/23/learn-computer-science-with-go).   
+One of the first things I implemented in Go was a simple data structure to keep track of individuals entering and leaving an amusement park ride line, I outlined the assignment in my [previous post](/posts/2016/08/23/learn-computer-science-with-go). This was pretty trivial to do using Slices in Go, but thanks to my discoveries I realize there are other data structures than Arrays in Computer Science.  
 
-From my experience in the web in the past 3 years, I have never come across the term **Stack**. My day to day work was with larger frameworks in Ruby and JavaScript. All the implementation details are usually decided for me.
+From my experience during 3 years of web development, I have never come across the term **Stack**. My day to day work mostly uses larger frameworks in Ruby and JavaScript. All the implementation details are usually decided for me, which makes it no mistery why I never came across this term.
 
 ## Stack
 
 A Stack is an abstract data type that serves as a collection of elements with two principle operations, pop and push. If you think of the Stack as a deck of cards, you can only add to the top of the Stack and remove the top of the Stack.
 
-Building a Stack in Go only requires two functions **Push()** and **Pop()** to interface with it. I chose to not use an array as my underlying data structure in my Stack structure but followed from some inspiration from [godash](https://godoc.org/github.com/Kairi/godash). The Stack data also needs two attributes, **size** and the element on **top**. 
+Building a Stack in Go only requires two functions **Push()** and **Pop()** to interface with it. I chose to not use an array as my underlying data structure in my Stack structure but followed from some inspiration from [godash](https://godoc.org/github.com/Kairi/godash). The Stack data structure also needs two attributes, **size** and the element on **top**. This way we can always know what element is on top and how many exists on the Stack.
 
 ```
 type Stack struct {
