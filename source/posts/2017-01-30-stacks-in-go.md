@@ -22,29 +22,27 @@ A Stack is an abstract data type that serves as a collection of elements with tw
 
 Building a Stack in Go only requires two functions **Push()** and **Pop()** to interface with it. I chose to not use an array as my underlying data structure in my Stack structure but followed from some inspiration from [godash](https://godoc.org/github.com/Kairi/godash). The Stack data structure also needs two attributes, **size** and the element on **top**. This way we can always know what element is on top and how many exists on the Stack.
 
-```
+```go
 type Stack struct {
 	top  *Element
 	size int
 }
-
 ```
 
 While researching how to approach this, I chose to build a second Struct, called **Element** to keep track of the value of each, this was an approach I discovered while researching Stacks in different languages. The Element holds the info on the Elements around them, next and previous. This is not similar to Arrays which are position based, but rather only focused on which elements sandwiches them.
 
-```
+```go
 type Element struct {
 	value    interface{}
 	stack    *Stack
 	next     *Element
 	previous *Element
 }
-
 ```
 
 I am trying to avoid using as many non-standard library packages as much as possible, so I also opted in writing my own implementations of **Pop()**, **Push()**, etc but couldn't help but be inspired from godash.  
 
-```
+```go
 func (s *Stack) Push(value interface{}) {
 	s.top = &Element{value: value, stack: s, next: s.top}
 	s.size++
@@ -68,7 +66,7 @@ Go allows Structs have the ability to create functions associated with them, sim
 Here I am creating the `Push` function to be used on any Stack. I first set the top attribute of the Stack to be a new Element created using the value arguments. I am setting the next Element as the current top, which in this case is null. I also set the stack attribute as the current Stack I am working with.
 
 
-```
+```go
 func  (s *Stack) Push(value interface{}) {  // value is an interface type
 	s.top = &Element{value: value, stack: s, next: s.top} // set the top as a new Element using
 	s.size++ // increases size by 1
@@ -80,7 +78,7 @@ The `Pop` function is a bit similar to the `Push` function but in reverse. I fir
 
 I also create store the value being popped into a variable to return. This is to prepare for an event where I might want to immediately use the value for another operation. This is just mirror how I know `:pop` works in Ruby.
 
-```
+```go
 func (s *Stack) Pop() interface{} {
 	if s.size > 0 {  // conditional to make sure the Stack size is greater than 0
 		value := s.top.value // saves the value of the top attribute
@@ -95,7 +93,7 @@ func (s *Stack) Pop() interface{} {
 
 My implementation of Stacks was created using Test Driven Development, an excellent way to stay sane while exploring a new language like Go. 
 
-```
+```go
 package main
 
 import (
