@@ -14,7 +14,7 @@ summary: >-
 
 I previously implemented a simple data structure to keep track of individuals entering and leaving an amusement park ride line, I outlined the assignment in my [previous post](/posts/2016/08/23/learn-computer-science-with-go). This was pretty trivial to do using Slices in Go, but thanks to my discoveries I realize there are other data structures than Arrays in Computer Science.  
 
-From my experience during 3 years of web development, I have never come across the term **Stack**. My day to day work mostly uses larger frameworks in Ruby and JavaScript. All the implementation details are usually decided for me, which makes it no mistery why I never came across this term.
+From my experience during 3 years of web development, I have never come across the term **Stack**. My day to day work mostly uses larger frameworks in Ruby and JavaScript. All the implementation details are usually decided for me, which makes it no mystery why I never came across this term.
 
 ## Stack
 
@@ -76,7 +76,7 @@ func  (s *Stack) Push(value interface{}) {  // value is an interface type
 
 The `Pop` function is a bit similar to the `Push` function but in reverse. I first wrap my operation into a conditional to check to see if the size of the Stack is greater than 0; No point popping if the Stack is empty. I then proceed to set the top attribute as the next attribute and decrease the stack size by 1. 
 
-I also create store the value being popped into a variable to return. This is to prepare for an event where I might want to immediately use the value for another operation. This is just mirror how I know `:pop` works in Ruby.
+I also create store the value being popped into a variable to return. This is to prepare for an event where I might want to immediately use the value for another operation. This just mirrors how I know `:pop` works in Ruby.
 
 ```go
 func (s *Stack) Pop() interface{} {
