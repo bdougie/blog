@@ -16,7 +16,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post-layout"}
+      - {label: "Layout", name: "layout", default: "post-layout"}
       - {label: "Tags", name: "tags", widget: "string"}
       - {label: "Category", name: "category", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
