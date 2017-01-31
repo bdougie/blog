@@ -160,5 +160,5 @@ func TestRemovingFromLine(t *testing.T) {
 	}
 }
 ```
-Please stay tuned for my next post, where I dive deeper into Stacks and
+Please stay tuned for my next post, where I dive deeper into [Stacks](/posts/2017/01/30/stacks-in-go) and
 Queues in Go, as well how Structs are the most useful data structure.
