@@ -1,2 +1,2 @@
-# blog.briandouglas.me
+# briandouglas.me
 My blog
