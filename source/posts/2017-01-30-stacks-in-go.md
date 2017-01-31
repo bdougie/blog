@@ -12,7 +12,7 @@ summary: >-
 
 # Stacks in Go
 
-One of the first things I implemented in Go was a simple data structure to keep track of individuals entering and leaving an amusement park ride line, I outlined the assignment in my [previous post](/posts/2016/08/23/learn-computer-science-with-go). This was pretty trivial to do using Slices in Go, but thanks to my discoveries I realize there are other data structures than Arrays in Computer Science.  
+I previously implemented a simple data structure to keep track of individuals entering and leaving an amusement park ride line, I outlined the assignment in my [previous post](/posts/2016/08/23/learn-computer-science-with-go). This was pretty trivial to do using Slices in Go, but thanks to my discoveries I realize there are other data structures than Arrays in Computer Science.  
 
 From my experience during 3 years of web development, I have never come across the term **Stack**. My day to day work mostly uses larger frameworks in Ruby and JavaScript. All the implementation details are usually decided for me, which makes it no mistery why I never came across this term.
 
@@ -130,6 +130,6 @@ func TestStackIsLIFO(t *testing.T) {
 }
 ```
 
-Writing a Stack data structure in Go was a great way for me to explore not Structs in Go further, but also a great intro to Computer Science for myself as well. 
+Writing a Stack data structure in Go was a great way for me to explore Structs in Go, but also a great intro to Computer Science for myself as well. 
 
 Stayed tuned for my next post to see my implementation of Queue data structure in Go. 
