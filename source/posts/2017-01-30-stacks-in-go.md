@@ -20,7 +20,7 @@ From my experience during 3 years of web development, I have never come across t
 
 A Stack is an abstract data type that serves as a collection of elements with two principle operations, pop and push. If you think of the Stack as a deck of cards, you can only add to the top of the Stack and remove the top of the Stack.
 
-Building a Stack in Go only requires two functions **Push()** and **Pop()** to interface with it. I chose to not use an array as my underlying data structure in my Stack structure but followed from some inspiration from [godash](https://godoc.org/github.com/Kairi/godash). The Stack data structure also needs two attributes, **size** and the element on **top**. This way we can always know what element is on top and how many exists on the Stack.
+Building a Stack in Go only requires two functions `Push` and `Pop()` to interface with it. I chose to not use an array as my underlying data structure in my Stack structure but followed from some inspiration from [godash](https://godoc.org/github.com/Kairi/godash). The Stack data structure also needs two attributes, **size** and the element on **top**. This way we can always know what element is on top and how many exists on the Stack.
 
 ```go
 type Stack struct {
@@ -40,7 +40,7 @@ type Element struct {
 }
 ```
 
-I am trying to avoid using as many non-standard library packages as much as possible, so I also opted in writing my own implementations of **Pop()**, **Push()**, etc but couldn't help but be inspired from godash.  
+I am trying to avoid using as many non-standard library packages as much as possible, so I also opted in writing my own implementations of `Pop`, `Push`, etc but couldn't help but be inspired from godash.  
 
 ```go
 func (s *Stack) Push(value interface{}) {
@@ -130,4 +130,6 @@ func TestStackIsLIFO(t *testing.T) {
 }
 ```
 
-Writing a Stack data structure in Go was a great way for me to explore not Structs in Go further, but also a great intro to Computer Science for myself as well. Stayed tuned for my next post to see my implementation of Queue data structure in Go. 
+Writing a Stack data structure in Go was a great way for me to explore not Structs in Go further, but also a great intro to Computer Science for myself as well. 
+
+Stayed tuned for my next post to see my implementation of Queue data structure in Go. 
