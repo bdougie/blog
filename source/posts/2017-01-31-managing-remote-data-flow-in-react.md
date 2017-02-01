@@ -28,4 +28,4 @@ When I am managing multiple REST endpoints from an API I tend to pull in project
 
 GraphQL has gained more popularity since coming out of developer preview at the end of the summer of 2016 and has become more of an option for managing data. Tools like Relay and Apollo make managing data from a GraphQL API manageable and also has the ability to attach itself to the props of a component. I am convinced that GraphQL is the best option and the tooling is getting better with GraphiQL and services like Scaphold and Graphcool. I will walk through how quickly you can bootstrap a simple app using these tools as well.
 
-React prides itself on a being a small API, which is why I try to use every tool sparingly and will explain each use case while weighing their pros and cons and when to use the right tool for the job.  
+React prides itself on a being a small API, which is why I try to use every tool sparingly and explain each use case while weighing their pros and cons and when to use the right tool for the job in my talk at ReactSF.  
