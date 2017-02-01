@@ -40,7 +40,7 @@ type Element struct {
 }
 ```
 
-I am trying to avoid using as many non-standard library packages as much as possible, so I also opted in writing my own implementations of `Pop`, `Push`, etc but couldn't help but be inspired from godash.  
+I am trying to avoid using as many non-standard library packages as much as possible, so I also opted in writing my own implementations of `Pop`, `Push`, etc but couldn't help but be inspired (copy) from godash.  
 
 ```go
 func (s *Stack) Push(value interface{}) {
