@@ -4,10 +4,13 @@ layout: post-layout
 tags: go
 category: go
 date: 2017-02-06T17:59:58-08:00
-summary: Queues
+summary: ->
+ I am going to walk through my learning of Queues. I now have a bit more confidence with Go and pretty comfortable creating 
+ functions and Structs to interact with. I also enjoying using only the Standard library to solve problems, since it is 
+ extremely limited comparared to my first language, which was Ruby, and even my second, JavaScript.
 ---
 
-As a follow-up to my previous post on [Stacks in Go](/posts/2017/01/30/stacks-in-go), I am going to walk through my learning of Queues.
+As a follow-up to my previous post on [Stacks in Go](/posts/2017/01/30/stacks-in-go), I am going to walk through my learning of Queues. I now have a bit more confidence with Go and pretty comfortable creating functions and Structs to interact with. I also enjoying using only the Standard library to solve problems, since it is extremely limited comparared to my first language, which was Ruby, and even my second, JavaScript.
 
 ## Queue
 
