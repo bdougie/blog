@@ -14,7 +14,7 @@ summary: >-
 
 I previously implemented a simple data structure to keep track of individuals entering and leaving an amusement park ride line, I outlined the assignment in my [previous post](/posts/2016/08/23/learn-computer-science-with-go). This was pretty trivial to do using Slices in Go, but thanks to my discoveries I realize there are other data structures than Arrays in Computer Science.  
 
-From my 3 years of experience in web development, I have never come across the term **Stack**. My day to day work mostly uses larger frameworks in Ruby and JavaScript. All the implementation details are usually decided for me, which makes it no mystery why I never came across this term.
+From my first 2 years of experience in web development, I have never come across the term **Stack**. My day to day work mostly uses larger frameworks in Ruby and JavaScript. All the implementation details are usually decided for me, which makes it no mystery why I never came across this term.
 
 ## Stack
 
