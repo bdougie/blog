@@ -13,7 +13,7 @@ As a follow-up to my previous post on [Stacks in Go](/posts/2017/01/30/stacks-in
 
 Similar to Stacks, Queues are an abstract data structures when the collection of data are kept in order. Items can be enqueued to add to the queue and dequeued to be removed from the queue. 
 
-I approach the structure knowing the Queue will have a head and a tail. This is something I have heard mentioned in the  
+I approach the structure knowing the Queue will have a head and a tail, which was lifted from the pseudo-code example in the [Bloc Software](https://www.bloc.io/software-developer-track) course I previewed.   
 
 
 ```
@@ -23,26 +23,29 @@ type Queue struct {
 	size int
 }
 ```
-I used the same Element I used in the Stack.
+I used the same Element I used in the Stack to keep track of the value of each item in the Queue, this was an approach I discovered while researching Stacks in different languages. The Element holds the info on the Elements around them, next and previous. This is not similar to Arrays which are position based, but rather only focused on which elements sandwiches them.
 
 ```
 type Element struct {
 	value    interface{}
-	stack    *Stack
+	queue    *Queue
 	next     *Element
 	previous *Element
 }
 
 ```
 
-I created an Enqueue function to add elements to the Queue.
+I created an Enqueue function to add elements to the Queue. This is different from a Push method in a Stack because you are adding elements to the tail and not the head.
+
+My first check is to see if this is the first element in the Queue if so, I add it to the head and tail. If the element is not the first, the element gets added to the previous element of the current tail and then added to the tail of the Queue. The new tail now has no previous element, since it is indeed the tail. 
+
 
 ```
 func (q *Queue) Enqueue(value interface{}) {
 	q.size++
 	if q.size == 1 {
-		q.top = &Element{value: value, previous: nil}
-		q.tail = q.top
+		q.head = &Element{value: value, previous: nil}
+		q.tail = q.head
 		return
 	}
 	q.tail.previous = &Element{value: value, previous: nil}
@@ -51,13 +54,13 @@ func (q *Queue) Enqueue(value interface{}) {
 
 ```
 
-The Dequeue removes elements form the Queue
+The Dequeue removes elements from the head of the Queue. I first check to see if the Queue is empty. If the Queue is empty I just return `nil`. If the Queue is not empty, I proceed to dequeue the head element by setting the previous as the head. I also return the value in the event it is needed to be used for another function.
 
 ```
 func (q *Queue) Dequeue() interface{} {
 	if !q.IsEmpty() {
-		value := q.top.value
-		q.top = q.top.previous
+		value := q.head.value
+		q.head = q.head.previous
 		q.size--
 		return value
 	}
@@ -65,8 +68,7 @@ func (q *Queue) Dequeue() interface{} {
 	return nil
 }
 ```
-
-I created an `isEmpty` to check if the Queue is empty to prevent an error. 
+No 3rd party libraries were sued in the making of this function in an effort to understand the basics of Go. I created an `isEmpty` to check if the Queue is empty to prevent an error. This helps keep my code less verbose, by abstracting the check for Queue size into a separate function.
 
 ```
 func (q *Queue) IsEmpty() bool {
@@ -78,7 +80,7 @@ func (q *Queue) IsEmpty() bool {
 }
 ```
 
-Tests
+Testing is straightforward with my isEmpty function. I do basic checks to see if my functions work as expected. All tests were written using TDD to help understand the Queue Data Structure while trying to create it.  
 
 ```
 func TestQueueIsInitializedEmpty(t *testing.T) {
@@ -105,8 +107,10 @@ func TestFIFO(t *testing.T) {
 	q.Enqueue("First")
 	q.Enqueue("Last")
 	q.Dequeue()
-	top := q.top.value
-	assert.Equal(t, "Last", top)
+	head := q.head.value
+	assert.Equal(t, "Last", head)
 }
 ```
+Knowing 2 data structures doesn't quite make me a Computer Scientists, but I now have a better understanding of approaching CS now. I also have a better understanding of Go as a language and just interfacing with functions and Structs. 
 
+I will be tackling LinkedList next.
