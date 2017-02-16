@@ -20,6 +20,8 @@ From my first 2 years of experience in web development, I have never come across
 
 A Stack is an abstract data type that serves as a collection of elements with two principle operations, pop and push. If you think of the Stack as a deck of cards, you can only add to the top of the Stack and remove the top of the Stack.
 
+![stack gif](/source/stack.gif)
+
 Building a Stack in Go only requires two functions `Push` and `Pop` to interface with it. I chose to not use an array as my underlying data structure in my Stack structure but followed from some inspiration from [godash](https://godoc.org/github.com/Kairi/godash). The Stack data structure also needs two attributes, **size** and the element on **top**. This way we can always know what element is on top and how many exists on the Stack.
 
 ```go
@@ -132,4 +134,4 @@ func TestStackIsLIFO(t *testing.T) {
 
 Writing a Stack data structure in Go was a great way for me to explore Structs in Go, but also a great intro to Computer Science for myself as well. 
 
-Stayed tuned for my next post to see my implementation of Queue data structure in Go. 
+For more Computer Science discoveries, checkout my next post on implementing the [Queue data structure in Go](/posts/2017/02/05/queues-in-go). 
