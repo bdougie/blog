@@ -1,5 +1,5 @@
 ---
-title: Customizing your bash command prompt (with emojis)
+title: Customizing your bash command prompt
 layout: post-layout
 tags: 'tools, bash'
 category: tools
@@ -26,3 +26,4 @@ I really don't know how to write bash, but was able to make heads and tails of w
 
 
 ![Uploading Screenshot 2017-03-30 09.21.19.png...]()
+
