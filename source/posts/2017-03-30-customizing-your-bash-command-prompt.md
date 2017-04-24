@@ -27,7 +27,7 @@ export PS1="🍔  \[\033[01;35m\]\u@\h:\[\033[01;34m\]\$(parse_git_branch)
 ```
 I really don't know how to write bash, but was able to make heads and tails of what was there using this [bash wiki](https://wiki.archlinux.org/index.php/Bash/Prompt_customization).
 
-![finished product](/img/Screenshot 2017-03-30 09.21.19.png)
+![finished product](img/Screenshot 2017-03-30 09.21.19.png)
 
 
 
