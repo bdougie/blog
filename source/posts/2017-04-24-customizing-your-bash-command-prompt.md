@@ -25,3 +25,5 @@ export PS1="🍔  \[\033[01;35m\]\u@\h:\[\033[01;34m\]\$(parse_git_branch)
 \[\033[01;32m\]\w \[\033[01;34m\]\n$ \[\e[0m\]"
 ```
 I really don't know how to write bash, but was able to make heads and tails of what was there using this [bash wiki](https://wiki.archlinux.org/index.php/Bash/Prompt_customization).
+
+![Uploading Screenshot 2017-03-30 09.21.19.png...]()
