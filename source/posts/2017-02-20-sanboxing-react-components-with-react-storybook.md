@@ -8,6 +8,7 @@ summary: >-
   This is an example of the workflow at Netlify with react-storybook and how it
   cut down our development time between designer to developer.  
 ---
+# Sanboxing React Components with react-storybook
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/unH8wa9Ovo8" frameborder="0" allowfullscreen></iframe>
 
