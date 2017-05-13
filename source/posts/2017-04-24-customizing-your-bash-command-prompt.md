@@ -14,7 +14,7 @@ Customizing your command prompt in bash is pretty straight, forward. It only req
 
 Recently during a discovery and research session on a flight across the country to Florida, I did some easy Google searching and found my solution on the [Apple Stack Exchange](http://apple.stackexchange.com/questions/125637/iterm-colors-for-prompt-command-and-output).
 
-I copied the code from there with some minor changes, which the result is this:
+I copied the code from there to my`.bashrc` with some minor changes, which the result is this:
 
 ```sh
 # custom bash prompt
