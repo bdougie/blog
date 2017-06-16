@@ -1,5 +1,5 @@
 ---
-title: Static Applications & JAMStack
+title: Static Applications & JAMstack
 layout: post-layout
 tags: JAMstack
 category: podcast
@@ -17,6 +17,7 @@ I was on the [Web Platform Podcast](https://itunes.apple.com/us/podcast/the-web-
 Static Web Applications have evolved quite a bit over the past few years. They are now longer just a flat file with scripts added. Now they are fully functional application stacks. Static is no longer just static, bur rather part of another way to build applications, [JAMstack](https://jamstack.org/). 
 
 When we talk about “The Stack,” we no longer talk about operating systems, specific web servers, backend programming languages, or databases. The JAMstack is not about specific technologies. It’s an ideal way of building websites and apps that deliver better performance, higher security, lower cost of scaling, and a better developer experience.
+
 
 
 
