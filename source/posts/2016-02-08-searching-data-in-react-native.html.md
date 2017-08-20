@@ -69,8 +69,10 @@ Searching is just as easy using basic JavaScript, as soon as I type in the searc
 
 My `setSearchText` captures the native JavaScript event as text and proceeds to set the searchText state and then then filters the notes displayed based on the original input saved in state. 
 
+*note: I am using the [re-base](https://github.com/tylermcginnis/re-base) library to fetch data from Firebase directly. 
+
 ```
-import base from 're-baseæ;
+import base from "re-base";
 ...
 
 setSearchText(event) {
