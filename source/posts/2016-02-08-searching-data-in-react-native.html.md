@@ -16,7 +16,7 @@ Some things in React Native are pretty straight forward and enabling searching i
 
 I eventually chose to go with a regular JavaScript to solve this, with the addition of [lodash](https://lodash.com/).
 
-For storing note data, I am using [Firebase](https://www.firebase.com)/ and the JavaScript [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to return notes in a JSON string. As soon as I call for the fetch in notes, I set the [ListView](https://facebook.github.io/react-native/docs/listview.html) Datasource and move on.
+For storing note data, I am using [Firebase](https://www.firebase.com) and the JavaScript [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to return notes in a JSON string. As soon as I call for the fetch in notes, I set the [ListView](https://facebook.github.io/react-native/docs/listview.html) Datasource and move on.
 
 ```
 
@@ -69,7 +69,11 @@ Searching is just as easy using basic JavaScript, as soon as I type in the searc
 
 My `setSearchText` captures the native JavaScript event as text and proceeds to set the searchText state and then then filters the notes displayed based on the original input saved in state. 
 
+*note: I am using the [re-base](https://github.com/tylermcginnis/re-base) library to fetch data from Firebase directly. 
+
 ```
+import base from "re-base";
+...
 
 setSearchText(event) {
  let searchText = event.nativeEvent.text;
