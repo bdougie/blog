@@ -14,21 +14,12 @@ pageable: true
 
           <div class="sub-nav">
               <a href="#" class="select-posts active">Posts</a>
-              <%# <a href="#" class="select-categories">Categories</a> %>
+              <a href="#" class="select-talks">Talks</a>
           </div>
 
-          <%= partial 'layouts/post' %>
-         
-          <div class="home-page-categories hide animated fadeIn ">
-            <div class="category row">
-              <section>
-                <div class="category-preview col-xs-6 col-sm-4 ">
-                  <h2>Easy Living</h2>
-                  <a href="category.html"><img src="img/cover-2.jpg" alt="category-image"></a>  
-                </div>
-              </section>
-            </div>
-          </div>
+          <%= partial 'layouts/posts' %>
+          <%= partial 'layouts/talks' %>
+
           <footer class="split-footer">
             <i class="link-spacer"></i>
             <a href="http://twitter.com/bdougieYO">Brian</a>

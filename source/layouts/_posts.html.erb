@@ -5,18 +5,18 @@
     <a href=<%= path %>>
 
       <article class="post">
-      <div class="post-preview col-xs-10  no-gutter">
-          <p><%= article.summary(350) %></p>
-          <p class="meta">
-          <p class="post-meta">Posted
-             on <%= article.date.strftime('%B %e, %Y') %>
-           <% follow_back_url = "http:/blog.briandouglas.me" + path %>
-           <% blog_title = "This Developing Journey" %>
-           <%= link_to "...read more",
-             path, class: "pull-right" %>
-        </p>
-      </div>
-    </article>
+        <div class="post-preview col-xs-10  no-gutter">
+            <p><%= article.summary(350) %></p>
+            <p class="meta">
+            <p class="post-meta">Posted
+               on <%= article.date.strftime('%B %e, %Y') %>
+             <% follow_back_url = "http:/blog.briandouglas.me" + path %>
+             <% blog_title = "This Developing Journey" %>
+             <%= link_to "...read more",
+               path, class: "pull-right" %>
+          </p>
+        </div>
+      </article>
     </a>
   <% end %>
 
