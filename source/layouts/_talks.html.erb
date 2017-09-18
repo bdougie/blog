@@ -1,0 +1,36 @@
+<div class="home-page-talks animated fadeIn hide">
+
+  <% page_articles.select {|a| a.tags.include?('talk') }.each do |article| %>
+    <% path = "/posts/#{article.date.strftime('%Y')}/#{article.date.strftime('%m')}/#{article.date.strftime('%d')}/#{article.title.split(" ").join("-").downcase}" %>
+    <a href=<%= path %>>
+
+      <article class="post">
+        <div class="post-preview col-xs-10  no-gutter">
+          <p><%= article.summary(350) %></p>
+          <p class="meta">
+          <p class="post-meta">Posted
+             on <%= article.date.strftime('%B %e, %Y') %>
+           <% follow_back_url = "http:/blog.briandouglas.me" + path %>
+           <% blog_title = "This Developing Journey" %>
+           <%= link_to "...read more",
+             path, class: "pull-right" %>
+          </p>
+        </div>
+      </article>
+    </a>
+  <% end %>
+
+  <% if paginate && num_pages > 1 %>
+    <p>Page <%= page_number %> of <%= num_pages %></p>
+
+    <% if prev_page %>
+      <p><%= link_to 'Previous page', prev_page %></p>
+    <% end %>
+  <% end %>
+
+  <% if paginate %>
+    <% if next_page %>
+      <p><%= link_to 'Next page', next_page %></p>
+    <% end %>
+  <% end %>
+
