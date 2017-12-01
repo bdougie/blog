@@ -1,8 +1,8 @@
 ---
 title: Getting GraphQL in your API
 layout: post-layout
-tags: 'graphql, apollo'
-category: graphql
+tags: 'graphql, apollo, talk'
+category: talk
 date: 2017-12-01T18:09:27.491Z
 summary: >-
   Convincing your team to change up technologies can be challenging. Convincing
