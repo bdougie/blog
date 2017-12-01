@@ -12,7 +12,7 @@ summary: >-
 #Getting GraphQL in your API
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H96AO5QiKk4" frameborder="0" allowfullscreen></iframe>
-*I gave a talk at the 2017 GraphQL Summit*
+*I gave a talk on this subject at GraphQL Summit*
 
 [GraphQL](http://graphql.org/) is a query based language for APIs. GraphQL provides a better way to request data from your existing API that can potentially speed up the development experience.
 
