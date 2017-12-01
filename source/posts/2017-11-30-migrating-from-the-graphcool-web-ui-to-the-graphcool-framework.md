@@ -3,7 +3,7 @@ title: Migrating from the Graphcool Web UI to the Graphcool Framework
 layout: post-layout
 tags: graphql
 category: graphql
-date: 2017-12-01T21:22:18.000Z
+date: 2017-11-30T21:22:18.000Z
 summary: >-
   Graphcool has released a new framework to improve the standards around getting
   a GraphQL server up and deployed. But what about the people have already been
@@ -60,6 +60,6 @@ I personally had errors when deploying due to the schema using an older syntax, 
 
 That is it, I now have the ability to choose my deployment strategy as well the ability to keep up with the latest Graphcool has to offer. I have plans to take advantage of [Schema stitching](https://github.com/bdougie/open-sauced/issues/45) and [resolver functions](https://blog.graph.cool/extend-your-graphcool-api-with-resolvers-ca0f0270bca7).
 
-View the result of the above in [PR #71](https://github.com/bdougie/open-sauced/pull/71)
+View the result of the above in [PR #71](https://github.com/bdougie/open-sauced/pull/71) in the Open Sauce project repo.
 
 *If you would like to learn more about my project, check out this [post I wrote on Netlify](https://www.netlify.com/blog/2017/05/16/using-graphql-to-manage-open-source-repositories/) that goes into more detail. And of course, feel free drop by in the issues 😀*
