@@ -1,6 +1,8 @@
 workflow "Create deployment logs on GitHub" {
+  resolves = [
+    "loglify",
+  ]
   on = "deployment"
-  resolves = "linter-alex"
 }
 
 action "loglify" {
