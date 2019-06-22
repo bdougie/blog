@@ -8,7 +8,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     addressable (2.3.8)
-    builder (3.2.2)
+    builder (3.2.3)
     celluloid (0.16.0)
       timers (~> 4.0.0)
     chunky_png (1.3.4)
@@ -129,7 +129,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  builder (~> 3.0)
+  builder (~> 3.2)
   middleman (~> 3.3.11)
   middleman-blog (~> 3.5.3)
   middleman-rouge
