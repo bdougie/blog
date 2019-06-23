@@ -29,7 +29,7 @@ GEM
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
     erubis (2.7.0)
-    execjs (2.5.2)
+    execjs (2.7.0)
     ffi (1.11.1)
     haml (4.0.6)
       tilt
@@ -38,7 +38,7 @@ GEM
     hooks (0.4.0)
       uber (~> 0.0.4)
     i18n (0.7.0)
-    json (1.8.2)
+    json (1.8.6)
     kramdown (1.7.0)
     listen (2.10.0)
       celluloid (~> 0.16.0)
@@ -121,7 +121,7 @@ GEM
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     uber (0.0.13)
-    uglifier (2.7.1)
+    uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
 
