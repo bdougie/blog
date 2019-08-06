@@ -17,8 +17,6 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true
 # Code highlighting
 ###
 
-activate :rouge_syntax
-
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   blog.prefix = "posts"
