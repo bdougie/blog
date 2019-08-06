@@ -9,7 +9,7 @@ summary: >-
   my team to use GraphQL was not, mainly due to simplicity in getting a GraphQL
   prototype up and running using Apollo's Launchpad and our existing REST API.
 ---
-#Getting GraphQL in your API
+# Reviving projects with dependency automation
 
 I have fallen off writing blog posts here in the last two years, and the reason for that has been because blogging became my full-time job. I was offered a role at a new startup to write code for them, as well as, be the point person for their developer relations strategy. 100% of my blogging move to [Netlify's blog](https://www.netlify.com/blog/2017/04/20/creating-a-blog-with-middleman-and-netlify-cms/), and I was super excited about this. I had spent almost 2.5 years before writing content about my coding journey blogging on my entry-level experience. This change allowed me to work on hard problems with a new goal of sharing all my work publicly. 
 
