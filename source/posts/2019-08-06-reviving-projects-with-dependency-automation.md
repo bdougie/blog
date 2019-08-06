@@ -17,13 +17,13 @@ The challenge of not leveraging this blog for so long is that there were mainten
 
 That all changed recently when [Dependabot announced its acquisition](https://dependabot.com/blog/hello-github/) by GitHub. Until opting into automated dependency updates in the PRs, I was not aware how far out of date the code for this blog became. There we are a large number of vulnerabilities and places for dependency upgrades.
 
-![security fixes](/img/uploads/2019-08-06-security-fixes.png)
+![security fixes](/img/uploads/2019-08-06-security-issues.png)
 
 Dependabot works exceptionally well with the combination of Git Hub's automating security advisories. This feature is the same feature that loads up your notifications with warnings about vulnerabilities in your code. I spent the better part of last year ignoring them due to me not having time addressing them in all of my repositories. The beautiful part about Dependabot is that you get pull requests opened in GitHub suggesting the update as wells as providing changelogs for new versions. 
 
 With these automated pull requests and [automated deploy previews](https://www.netlify.com/blog/2016/07/20/introducing-deploy-previews-in-netlify/), I now have the confidence to merge these updates without a ton of thought. 
 
-![blog changelog](/img/uploads/2019-08-06-blog.changelog.png)
+![blog changelog](/img/uploads/2019-08-06-blog-changelog.png)
 
 Now that I am supporting the latest dependencies in my project, I no have writer's block due to local environment debugging. I look forward to shipping new content on this blog moving towards consistent publishing here on out.  
 
