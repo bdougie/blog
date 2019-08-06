@@ -12,7 +12,7 @@ experience for me. Certain things that came so easy previously had to be
 relearned with an understanding of the Ember way, which is not exactly a bad thing. 
 
 With my first Ember project I needed to implement a quick grid design
-and assest associated with [Bootstrap](http://getbootstrap.com/) and
+and assest associated with [Bootstrap](https://getbootstrap.com/) and
 need to install it in the project.
 
 My first thought was to include it in the `index.html` file, but that

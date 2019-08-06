@@ -12,7 +12,7 @@ Understanding the context of code in a team repo is hard and it's harder when th
 
 Having clean code and readable code is a must for growing teams.
 
-One code smell I find a lot is the use of abstracting tons of business logic into private methods. This is a method of abstraction I am very familiar with and use often thanks to [POODR](http://www.poodr.com/).
+One code smell I find a lot is the use of abstracting tons of business logic into private methods. This is a method of abstraction I am very familiar with and use often thanks to [POODR](https://www.poodr.com/).
 
 The idea of abstracting complex business logic into a private method makes it easy to test, because you aren’t suppose to test private methods. This [code smell](https://en.wikipedia.org/wiki/Code_smell) can grow into a problem where too much hidden business logic hidden from tests and hard to change.
 
@@ -54,6 +54,6 @@ So if you are find yourself struggling to figure out your private methods and bu
 
 <script src="https://gist.github.com/bdougie/e1691a2da5938c57be8f.js"></script>
 
-I recently had this opportunity to use the concept of DCI thanks to the book [Clean Ruby](http://clean-ruby.com/) and I highly recommend it if you would like to find out more.
+I recently had this opportunity to use the concept of DCI thanks to the book [Clean Ruby](https://clean-ruby.com/) and I highly recommend it if you would like to find out more.
 
-*This article was originally posted on [code.bloc.io](http://code.bloc.io/) 
+*This article was originally posted on [code.bloc.io](https://code.bloc.io/) 

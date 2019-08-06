@@ -40,7 +40,7 @@ Everytime you need to use a class function you have two options:
 return <LoginForm handleLogin={this.onLogin.bind(this)} loginError={this.state.loginError}/>;
 ```
 
-*This option will not pass the default [eslint](http://eslint.org/docs/rules/no-extra-bind) settings, due the unpopular use of bind in jsx.*
+*This option will not pass the default [eslint](https://eslint.org/docs/rules/no-extra-bind) settings, due the unpopular use of bind in jsx.*
 
 ```js
 const login = () => this.onLogin

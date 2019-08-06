@@ -121,4 +121,4 @@ searchBar: {
 
 Overall this was a pretty simple task to accomplish and the beauty of this is that it could easily be written into it’s own component if I feel it needs to be abstracted.
 
-![searching-gif](http://i.imgur.com/Bz5i5Mn.gif)
+![searching-gif](https://i.imgur.com/Bz5i5Mn.gif)

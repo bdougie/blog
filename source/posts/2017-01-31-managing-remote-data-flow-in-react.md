@@ -16,7 +16,7 @@ summary: >-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WNLR2u7Pk3M" frameborder="0" allowfullscreen></iframe>
 
-**slides for this talk are at http://apple-bottom-jeans.netlify.com/*
+**slides for this talk are at https://apple-bottom-jeans.netlify.com/*
 
 React is a powerful tool to create UIs and it does a great job of getting out of the way when it is not needed. Thanks to this it has enabled front-end developers to focus on other issues including managing data. Thanks to React’s ability to manage these UIs my sole job has been connecting APIs. 
 

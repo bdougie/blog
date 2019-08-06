@@ -13,7 +13,7 @@ summary: >-
 # Managing Data Flow in React Native
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ptm0UbvSZNY" frameborder="0" allowfullscreen></iframe>
-***slides for this talk are at http://yeezus.netlify.com/*(
+***slides for this talk are at https://yeezus.netlify.com/*(
 
 Within the past year, I have discovered different ways to solve the same problem — managing the increasingly complex data requirements of React Native apps. In this talk, I go through how to manage remote data-flow in a React Native application, using 5 of different techniques including starting with Promises and eventually getting to how I now got to GraphQL.
 

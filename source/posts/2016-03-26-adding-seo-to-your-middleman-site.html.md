@@ -19,7 +19,7 @@ My assumption is that through a long tail of existence on the web my
 blog will eventually be found and considered useful. Little did I know,
 I could actually help Google find my blog with SEO.
 
-![blog seo example](http://i.imgur.com/LV7hjCz.png)
+![blog seo example](https://i.imgur.com/LV7hjCz.png)
 
 ## Meta Tags
 
@@ -70,14 +70,14 @@ gets a new post once or twice a month (hopefully sooner in the future)
 page "/sitemap.xml", :layout => false
 
 # Sitemap
-set :url_root, 'http://developingjourney.netlify.com/'
+set :url_root, 'https://developingjourney.netlify.com/'
 activate :search_engine_sitemap
 ```
 
 By default, the generator will update once a month. You can now
 confirm this all works by going to your site's root url
 `/sitemap.xml`. If you see something there, you did everything
-correctly, You check on this site [here](http://developingjourney.netlify.com/sitemap.xml).
+correctly, You check on this site [here](https://developingjourney.netlify.com/sitemap.xml).
 
 ## Submit your site to Google
 
@@ -89,9 +89,9 @@ This step comes with disappointment, because it is too easy. The only steps are:
 1. Enter your site's URL in the form
 1. Completing the CAPTCHA.
 
-![submit your url image](http://i.imgur.com/Feuequv.png)
+![submit your url image](https://i.imgur.com/Feuequv.png)
 
 Once submitted the Google Robots will walk through your site and
-rank you with their [famous PageRank algorithm](http://checkpagerank.net/).
+rank you with their [famous PageRank algorithm](https://checkpagerank.net/).
 
 That is all, now go and update your site.

@@ -35,10 +35,10 @@ $ rails-api new my-api
 $ rails g scaffold movie title:string rating:string
 $ bundle exec rake db:migrate
 $ rails s
-$ open http://localhost:3000/movies
+$ open https://localhost:3000/movies
 # You should see an empty array.
 ```
-![empty table](http://i.imgur.com/lMLnZdkm.png)
+![empty table](https://i.imgur.com/lMLnZdkm.png)
 ## Add the data using Faker
 ```
 Gemfile
@@ -63,9 +63,9 @@ end
 ```
 $ bundle exec rake db:seed
 ```
-Now revisit `http://localhost:3000/movies` and you will see you movies.
+Now revisit `https://localhost:3000/movies` and you will see you movies.
 
-![populate movies](http://i.imgur.com/Vkaxwmcl.png)
+![populate movies](https://i.imgur.com/Vkaxwmcl.png)
 ## Create your serializer
 
 Now that is out of the way you can began creating all your
@@ -104,9 +104,9 @@ $ rails g serializer Movie title rating
 You will now notice when you refresh the page the `created_at` and `updated_at` are no longer
 there. This is because they were not white listed in the serializer. You
 will also notice the table is now serialized with the name `movies` as
-well. This is part of the new [json-api](http://jsonapi.org/) conventions. 
+well. This is part of the new [json-api](https://jsonapi.org/) conventions. 
 
-![serialized movies](http://i.imgur.com/GKDkFwPl.png)
+![serialized movies](https://i.imgur.com/GKDkFwPl.png)
 
 You can add or delete white listed attributes in the
 `serializers/movie_seriliazer.rb`.
@@ -130,7 +130,7 @@ changes. It is more ideal to add this new attribute and method to your model
 to persist to the database, but some methods that require live and
 changing data on refresh can more realistically store in the serializer.
 
-![movies with directors](http://i.imgur.com/q9VDgj6l.png)
+![movies with directors](https://i.imgur.com/q9VDgj6l.png)
 
 ## Enabling CORS 
 Enabling [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) is a way to grant access to your API to other sources, without opening
@@ -176,7 +176,7 @@ module MyApi
 end
 ```
 ## Bonus
-Your api is ready to be consumed by your mobile and client apps. It is also worth taking a look at [Web Tokens in a JS Frontend](http://zacstewart.com/2015/05/14/using-json-web-tokens-to-authenticate-javascript-front-ends-on-rails.html) 
+Your api is ready to be consumed by your mobile and client apps. It is also worth taking a look at [Web Tokens in a JS Frontend](https://zacstewart.com/2015/05/14/using-json-web-tokens-to-authenticate-javascript-front-ends-on-rails.html) 
 if you plan on adding authentication to your application.
 
 The [knock gem](https://github.com/nsarno/knock/?utm_source=rubyweekly&utm_medium=email) handles a lot of that for you.
