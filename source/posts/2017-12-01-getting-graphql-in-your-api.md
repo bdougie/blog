@@ -14,7 +14,7 @@ summary: >-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H96AO5QiKk4" frameborder="0" allowfullscreen></iframe>
 *I gave a talk on this subject at GraphQL Summit*
 
-[GraphQL](http://graphql.org/) is a query based language for APIs. GraphQL provides a better way to request data from your existing API that can potentially speed up the development experience.
+[GraphQL](https://graphql.org/) is a query based language for APIs. GraphQL provides a better way to request data from your existing API that can potentially speed up the development experience.
 
 A common misconception of GraphQL is that it needs to replace your current REST API, and this is not the case. I was able to add GraphQL to Netlify's current API with a low amount an effort.
 
@@ -22,7 +22,7 @@ Netlify has a [public REST API](https://www.netlify.com/docs/api/) that I am l
 
 ![graphql-jam](/img/uploads/jamstack-graphql.png)
 
-I initially tried a number of tools to add GraphQL to the Netlify API, but most took a lot of work and required me to take away bandwidth from the API team. In an effort to not take up too much time on this internal side project, I looked into [wrapping the REST API in GraphQL](http://graphql.org/blog/rest-api-graphql-wrapper/).
+I initially tried a number of tools to add GraphQL to the Netlify API, but most took a lot of work and required me to take away bandwidth from the API team. In an effort to not take up too much time on this internal side project, I looked into [wrapping the REST API in GraphQL](https://graphql.org/blog/rest-api-graphql-wrapper/).
 
 The [Meteor Development Group](https://www.meteor.io/) have been working on an universal GraphQL API called the, [Apollo project](https://www.apollographql.com/). Out of that project came a new project, called [LaunchPad](https://launchpad.graphql.com/new), and it was my saving grace in getting GraphQL working in a few hours. LaunchPad is like the [CodePen](https://codepen.io/) for schemas and was the easiest way for me to get started with GraphQL. After some initial research I had a working endpoint in a few hours, which is live at [launchpad.graphql.com/m1wl39p39](https://launchpad.graphql.com/m1wl39p39).
 

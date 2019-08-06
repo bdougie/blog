@@ -9,7 +9,7 @@ layout: post-layout
 
 Learning how to do things in React Native requires a balance of using React Native 3rd party libraries, JavaScript libraries, and Native iOS code. 
 
-![searching-gif](http://i.imgur.com/Bz5i5Mnm.gif)
+![searching-gif](https://i.imgur.com/Bz5i5Mnm.gif)
 
 Some things in React Native are pretty straight forward and enabling searching is exactly that. I did however have had explicitly choose a direction due to the multiple ways I could accomplish this.
 
@@ -121,4 +121,4 @@ searchBar: {
 
 Overall this was a pretty simple task to accomplish and the beauty of this is that it could easily be written into it’s own component if I feel it needs to be abstracted.
 
-![searching-gif](http://i.imgur.com/Bz5i5Mn.gif)
+![searching-gif](https://i.imgur.com/Bz5i5Mn.gif)

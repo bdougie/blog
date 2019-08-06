@@ -12,7 +12,7 @@ For awhile now I have wanted to customize my command prompt in my terminal, but 
 
 Customizing your command prompt in bash is pretty straight, forward. It only requires a little bit of reading and a lot of copy and pasting.
 
-Recently during a discovery and research session on a flight across the country to Florida, I did some easy Google searching and found my solution on the [Apple Stack Exchange](http://apple.stackexchange.com/questions/125637/iterm-colors-for-prompt-command-and-output).
+Recently during a discovery and research session on a flight across the country to Florida, I did some easy Google searching and found my solution on the [Apple Stack Exchange](https://apple.stackexchange.com/questions/125637/iterm-colors-for-prompt-command-and-output).
 
 I copied the code from there to my`.bashrc` with some minor changes, which the result is this:
 

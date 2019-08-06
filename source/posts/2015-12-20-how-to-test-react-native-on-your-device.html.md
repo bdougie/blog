@@ -32,7 +32,7 @@ jsCodeLocation = [NSURL URLWithString:@”<MAC-IP-HERE>/index.ios.bundle?platfor
 Choose your phone as build target and press **Build and Run** and voila.
 
 
-![run on device image](http://i.imgur.com/STdGo4gl.png)
+![run on device image](https://i.imgur.com/STdGo4gl.png)
 
 
 
@@ -65,7 +65,7 @@ Run the following command in the terminal:
 
 ```
 
-$ curl http://localhost:8081/index.ios.bundle -o main.jsbundle
+$ curl https://localhost:8081/index.ios.bundle -o main.jsbundle
 
 ```
 
@@ -79,4 +79,4 @@ Keep in mind React Native is still a work in progress and some features of React
 
 If you are interested in learning more React Native, be sure to read my other experiences with React Native here. 
 
-For more info on React Native and running locally on Android, checkout [their documentation](http://facebook.github.io/react-native/docs/running-on-device-android.html#content).
+For more info on React Native and running locally on Android, checkout [their documentation](https://facebook.github.io/react-native/docs/running-on-device-android.html#content).

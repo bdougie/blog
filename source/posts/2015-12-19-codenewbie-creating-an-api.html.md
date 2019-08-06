@@ -15,4 +15,4 @@ first. It gives you the flexibility to experiement on the frontend and
 even leverage mobile.
 
 This video is a Saturday Session with
-[CodeNewbies](http://codenewbie.org)
+[CodeNewbies](https://codenewbie.org)

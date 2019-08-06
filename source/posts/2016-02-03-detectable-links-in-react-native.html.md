@@ -10,7 +10,7 @@ layout: post-layout
 
 Having  some  iOS knowledge, I have a good idea on how to get things done in the Standard NSLibrary.
 
-My most recent goal in my React Native Note App is auto detect links. This is actually pretty trivial in iOS and easily accomplished by wrapping [NSDataDetector](http://nshipster.com/nsdatadetector/) around the suggested text content. 
+My most recent goal in my React Native Note App is auto detect links. This is actually pretty trivial in iOS and easily accomplished by wrapping [NSDataDetector](https://nshipster.com/nsdatadetector/) around the suggested text content. 
 
 ```
 NSDataDetector *detector = [NSDataDetector 
@@ -38,7 +38,7 @@ To accomplish this basic app/link routing I used the [LinkingIOS](https://facebo
 
 Putting this all together I now have what I was looking for and that’s detectable links in my note app. This was definitely a lot more steps than can be done in a Swift/iOS combo, but that has more to do with React Native being such a young framework. I am sure as time goes on, some steps can be combine together.
 
-![app gif](http://i.imgur.com/ZAfidxZ.gif)
+![app gif](https://i.imgur.com/ZAfidxZ.gif)
 
 You can see the code complete implementation [here](https://github.com/bdougie/BlackNotes/blob/e5a9113ae15de4cb859292d6959db8db87746ea5/App/Components/ViewNote.js).
 
