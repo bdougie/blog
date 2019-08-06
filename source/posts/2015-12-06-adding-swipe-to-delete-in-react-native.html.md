@@ -11,7 +11,7 @@ Adding Swipe to Delete in React Native I am currently working on a mobile note a
 
 A lot of iOS apps are built using the UIKit [UITableView](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITableView_Class/) structure (a list of items presented in rows):
 
-![note app preview](http://i.imgur.com/8BzFCMTl.jpg)
+![note app preview](https://i.imgur.com/8BzFCMTl.jpg)
 
 In React Native the UITableView equivalent is called a [ListView](https://facebook.github.io/react-native/docs/listview.html). In terms of presenting the items, the UITableViews and ListViews pretty similar aside from the attribute names used to interact with them (so not that similar).
 
