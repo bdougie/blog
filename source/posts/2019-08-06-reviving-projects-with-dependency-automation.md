@@ -3,7 +3,7 @@ title: Reviving projects with dependency automation
 layout: post-layout
 tags: 'github, dependency, automation'
 category: post
-date: 2019-08-06T18:09:27.491Z
+date: 2019-08-06
 summary: >-
   Convincing your team to change up technologies can be challenging. Convincing
   my team to use GraphQL was not, mainly due to simplicity in getting a GraphQL
