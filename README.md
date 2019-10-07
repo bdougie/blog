@@ -1,2 +1,2 @@
 # briandouglas.me
-My blog
+My blog ${GITHUB_ACTOR}
