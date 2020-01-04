@@ -25,4 +25,4 @@
 /admin#/ /admin/ 301
 /admin /admin/ 301
 /admon /admin/ 301
-/admin/*  /admin   200
+/admin/*  /admin/#   200
