@@ -6,9 +6,12 @@ category: blog
 date: 2020-01-10T21:40:48.367Z
 summary: This is a post to discover how to write a test for an expected error with Jest
 ---
+# Testing expected Errors with JestTesting expected Errors with Jest
+
 While trying to create a consistency in my tests for my [Open Sauced](https://opensauced.pizza/) ([previous revived](https://briandouglas.me/posts/2019/08/06/reviving-projects-with-dependency-automationhttps://briandouglas.me/posts/2019/08/06/reviving-projects-with-dependency-automation)), I found testing my reducer functions to be challenging.
 
 My reducer is simplistic and possibly naive:
+
 ```js
 // reducers.js
 
