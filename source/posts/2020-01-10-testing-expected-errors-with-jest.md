@@ -26,17 +26,6 @@ export function goalsReducer(state, action) {
     default:
       throw new Error("No Action was provided.");
   }
-}export function goalsReducer(state, action) {
-  switch (action.type) {
-    case "GET":
-      return state.repository ? state : state.data.gitHub.viewer;
-    case "UPDATE":
-      return state;
-    case "CREATE":
-      return state.data.createRepository;
-    default:
-      throw new Error("No Action was provided.");
-  }
 }
 ```
 
