@@ -52,6 +52,21 @@ describe("goalsReducer", () => {
 
 Because this is my first reducer, this works for me. I imagine I will eventually write some mocks for expected Errors, but for now, I need to get back to Saucin.
 
+Update:
+
+As soon as I posted my experience on Twitter, I received [some feedback]([https://twitter.com/hugo__df/status/1215768310131908610](https://twitter.com/hugo__df/status/1215768310131908610)) that my test would still pass if the function stopper throwing the error. Instead I was recommend to [fail fast with Jest](https://codewithhugo.com/jest-force-explicitly-fail-test/). Failing fast is using [toThrow()](https://jestjs.io/docs/en/expect#tothrowerror), which I originally attempted. My mistake when trying out this expectation was not [binding the function](https://www.geeksforgeeks.org/javascript-function-binding/) to provide the error. 
+
+```
+// reducers.test.js
+
+describe("goalsReducer", () => { 
+  it("should error on no action type", () => {
+    expect(goalsReducer.bind(null, state, {})).toThrow(new Error("No Action was provided."));
+  });
+});
+
+```
+
 If you found helpful or not helpful, let me know in the comments below. 
 
 Thanks for reading!
