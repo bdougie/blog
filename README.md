@@ -1,2 +1,8 @@
 # briandouglas.me
-My blog ${GITHUB_ACTOR}
+This blog is built with middleman.
+
+## development setup
+
+```
+bundle exec middleman
+```
