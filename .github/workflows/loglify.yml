@@ -1,6 +1,6 @@
 name: Logs for Netlify
 
-on: pull_request
+on: deployment
       
 jobs:
   logs4netlify:
