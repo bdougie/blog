@@ -13,6 +13,6 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Deploy Logs
-      uses: bdougie/loglify@master
+      uses: bdougie/loglify@actions
         env:
           GITHUB_TOKEN: ${{ secrets.DOUGIE_TOKEN }}
