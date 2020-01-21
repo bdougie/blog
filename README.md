@@ -6,3 +6,4 @@ This blog is built with middleman.
 ```
 bundle exec middleman
 ```
+adfgdggf
