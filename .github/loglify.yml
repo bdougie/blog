@@ -1,10 +1,6 @@
 name: Logs for Netlify
 
-on:
-  # you can deploy to netlify based on branches or pull requests
-  pull_request:
-    branches:
-    - master
+on: pull_request
       
 jobs:
   logs4netlify:
