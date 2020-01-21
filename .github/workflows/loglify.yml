@@ -1,6 +1,6 @@
 name: Logs for Netlify
 
-on: deployment
+on: status
       
 jobs:
   logs4netlify:
