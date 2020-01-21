@@ -17,3 +17,5 @@ jobs:
     - uses: actions/checkout@master
     - name: Deploy Logs
       uses: bdougie/loglify@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.DOUGIE_TOKEN }}
