@@ -19,7 +19,7 @@ I have been seriously thinking about my role at GitHub for the past 6 months. I 
 
 My approach to shipping YouTube videos and regular blog posts has all been through the lens of scaling. I have successfully turned my Friday live streaming into a time to produce live podcasts, and I don't see myself stopping anytime soon. Before 2020, I spent my nights and weekends crafting out creative content. Now I can incorporate it as a process of my day job. 
 
-##What'ss next?
+## What's next?
 The need to get conference abstracts accepted is a distant thought. My focus is now on crafting conference talks as YouTube videos. I see guesting on live streams as the new conference in 2021. I see podcasts as the new hallway track and YouTube to engage new audiences in clever ways.  
 
 Suppose you have a YouTube channel, podcasts, or live stream. I would love to join you in 2021 and connect with new audiences. If you also thoughts on this, consider joining the conversation on this [Reddit thread](https://www.reddit.com/r/devrel/comments/m6tjb3/everything_i_thought_about_developers_relations/).
